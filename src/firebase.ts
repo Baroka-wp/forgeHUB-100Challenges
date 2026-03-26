@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
+// @ts-ignore - This file is ignored in GitHub but exists in AI Studio
 import firebaseConfigJson from '../firebase-applet-config.json';
 
 // Use environment variables if available (for production build on VPS), 

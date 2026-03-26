@@ -20,6 +20,8 @@ jobs:
       - name: Install & Check
         run: |
           npm ci
+          # Create a dummy config file so TypeScript doesn't complain during linting
+          echo '{"apiKey":"","authDomain":"","projectId":"","appId":"","firestoreDatabaseId":"","storageBucket":"","messagingSenderId":""}' > firebase-applet-config.json
           npm run lint
 
       - name: Build Vite App
