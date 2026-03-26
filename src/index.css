@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", sans-serif;
+  
+  --color-primary: #1B365D;
+  --color-secondary: #64748B;
+  --color-neutral: #F8FAFC;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-neutral text-primary;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+.markdown-body {
+  @apply prose prose-slate max-w-none;
+  h1 { @apply text-3xl mb-6; }
+  h2 { @apply text-2xl mt-8 mb-4; }
+  h3 { @apply text-xl mt-6 mb-3; }
+  p { @apply mb-4 leading-relaxed; }
+  ul { @apply list-disc pl-6 mb-4; }
+  li { @apply mb-2; }
+  strong { @apply font-bold text-primary; }
+}
+
+/* Quill Editor Customization */
+.ql-container {
+  @apply !rounded-none !border-slate-200 !font-sans !text-base;
+}
+.ql-toolbar {
+  @apply !rounded-none !border-slate-200 !bg-slate-50;
+}
+.ql-editor {
+  min-height: 200px !important;
+}
+.ql-editor.ql-blank::before {
+  @apply !text-slate-400 !italic;
+}
