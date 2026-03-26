@@ -32,8 +32,8 @@ export default function Landing() {
                 PLUS.
               </h1>
               
-              <p className="text-xl md:text-2xl font-sans text-on-surface-variant max-w-xl leading-relaxed mb-16 border-l-2 border-primary/20 pl-8">
-                À l'ère de l'IA, la maîtrise technique est un prérequis. La <span className="text-on-surface font-bold">vision stratégique</span> est votre seule arme de distinction massive.
+              <p className="text-xl md:text-2xl font-sans text-on-surface leading-relaxed mb-16 border-l-2 border-primary/30 pl-8">
+                À l'ère de l'IA, la maîtrise technique est un prérequis. La <span className="text-primary font-bold">vision stratégique</span> est votre seule arme de distinction massive.
               </p>
               
               <div className="flex flex-col sm:flex-row items-center gap-8">
@@ -121,7 +121,7 @@ export default function Landing() {
               >
                 <span className="text-sm font-sans font-bold text-primary mb-8 block tracking-widest">{feature.number}</span>
                 <h3 className="text-3xl font-display font-bold text-on-surface mb-6 group-hover:text-primary transition-colors">{feature.title}</h3>
-                <p className="text-on-surface-variant leading-relaxed font-sans">{feature.desc}</p>
+                <p className="text-on-surface leading-relaxed font-sans">{feature.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -129,9 +129,9 @@ export default function Landing() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-40 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 bg-primary -z-10" />
-        <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10 -z-10" />
+      <section className="py-40 px-6 relative bg-black overflow-hidden">
+        {/* Deep dark architectural overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-black via-[#0a0a0a] to-black -z-10" />
         
         <div className="max-w-5xl mx-auto text-center relative">
           <motion.div
@@ -139,16 +139,16 @@ export default function Landing() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-6xl md:text-8xl font-display font-extrabold text-white mb-12 leading-none tracking-tighter">
+            <h2 className="text-6xl md:text-8xl lg:text-9xl font-display font-extrabold text-white mb-12 leading-[0.85] tracking-tighter">
               PRÊT À <br />
-              <span className="opacity-50 italic">COMMANDER ?</span>
+              <span className="text-primary italic brightness-200 drop-shadow-[0_0_30px_rgba(87,0,5,0.3)]">COMMANDER ?</span>
             </h2>
-            <p className="text-2xl text-white/70 mb-16 leading-relaxed max-w-2xl mx-auto font-sans">
+            <p className="text-2xl text-white/90 mb-16 leading-relaxed max-w-2xl mx-auto font-sans">
               Rejoignez l'élite des bâtisseurs. La formation est gratuite, votre détermination est le seul prix.
             </p>
             <Link 
               to="/signup" 
-              className="inline-block bg-white text-primary px-16 py-8 rounded-md text-xl font-sans font-black hover:bg-surface-bright transition-all shadow-[0_20px_50px_rgba(0,0,0,0.3)] hover:-translate-y-2 active:translate-y-0"
+              className="inline-block bg-primary text-white px-16 py-8 rounded-md text-xl font-sans font-black hover:bg-primary-container transition-all shadow-[0_20px_50px_rgba(0,0,0,0.8)] hover:-translate-y-2 active:translate-y-0 border border-white/20"
             >
               CRÉER MON COMPTE
             </Link>
