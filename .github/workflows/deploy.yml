@@ -1,0 +1,72 @@
+name: Deploy Vite App
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  quality-and-build:
+    name: 1. Quality & Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install & Check
+        run: |
+          npm ci
+          npm run lint
+
+      - name: Build Vite App
+        run: npm run build
+        env:
+          VITE_FIREBASE_API_KEY: ${{ secrets.VITE_FIREBASE_API_KEY }}
+          VITE_FIREBASE_AUTH_DOMAIN: ${{ secrets.VITE_FIREBASE_AUTH_DOMAIN }}
+          VITE_FIREBASE_PROJECT_ID: ${{ secrets.VITE_FIREBASE_PROJECT_ID }}
+          VITE_FIREBASE_APP_ID: ${{ secrets.VITE_FIREBASE_APP_ID }}
+          VITE_FIREBASE_FIRESTORE_DATABASE_ID: ${{ secrets.VITE_FIREBASE_FIRESTORE_DATABASE_ID }}
+          VITE_FIREBASE_STORAGE_BUCKET: ${{ secrets.VITE_FIREBASE_STORAGE_BUCKET }}
+          VITE_FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.VITE_FIREBASE_MESSAGING_SENDER_ID }}
+
+      - name: Archiver le build
+        run: tar -czf deploy.tar.gz dist public package.json package-lock.json server.ts
+
+      - name: Transfert vers VPS
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          source: "deploy.tar.gz"
+          target: "/opt/forgehub"
+
+  finalize-deploy:
+    name: 2. Execution VPS
+    needs: quality-and-build
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⚡ Restart PM2
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            cd /opt/forgehub
+            tar -xzf deploy.tar.gz
+            rm deploy.tar.gz
+
+            # 1. Installation propre sans lancer les scripts de dev (Husky)
+            export NODE_ENV=production
+            npm install --omit=dev --ignore-scripts
+
+            # 2. Redémarrage PM2 avec le chemin complet si nécessaire
+            # On utilise 'npx pm2' pour être sûr de le trouver
+            npx pm2 reload forgehub-app --update-env || npx pm2 start npm --name "forgehub-app" -- start -- -p 3000
+            
+            npx pm2 save
