@@ -1,17 +1,96 @@
 import { useAuth } from '../App';
 import { chapters } from '../content/chapters';
 import { Link } from 'react-router-dom';
-import { CheckCircle, Circle, Play, Award } from 'lucide-react';
-import { motion } from 'motion/react';
+import { CheckCircle, Circle, Play, Award, Calendar, ChevronRight, Clock, MapPin, Globe } from 'lucide-react';
+import { motion, AnimatePresence } from 'motion/react';
+import { useState, useEffect } from 'react';
+import { db } from '../firebase';
+import { collection, query, where, getDocs, orderBy, limit } from 'firebase/firestore';
+
+interface Event {
+  id: string;
+  title: string;
+  description: string;
+  location?: string;
+  locationType: 'presentiel' | 'webinaire';
+  date: string;
+}
 
 export default function Dashboard() {
   const { user, userData } = useAuth();
+  const [nextEvent, setNextEvent] = useState<Event | null>(null);
   const completedCount = userData?.completedChapters?.length || 0;
   const progressPercentage = Math.round((completedCount / chapters.length) * 100);
+
+  useEffect(() => {
+    const fetchNextEvent = async () => {
+      try {
+        const eventsRef = collection(db, 'events');
+        const q = query(
+          eventsRef, 
+          where('date', '>=', new Date().toISOString()),
+          orderBy('date', 'asc'),
+          limit(1)
+        );
+        const querySnapshot = await getDocs(q);
+        if (!querySnapshot.empty) {
+          const doc = querySnapshot.docs[0];
+          setNextEvent({ id: doc.id, ...doc.data() } as Event);
+        }
+      } catch (error) {
+        console.error("Error fetching next event:", error);
+      }
+    };
+    fetchNextEvent();
+  }, []);
 
   return (
     <div className="min-h-screen bg-surface py-8 md:py-16 px-4 md:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto">
+        {/* Event Announcement Banner */}
+        <AnimatePresence>
+          {nextEvent && (
+            <motion.div 
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="mb-12 bg-primary/5 border border-primary/20 rounded-sm overflow-hidden group hover:bg-primary/10 transition-all"
+            >
+              <Link to="/events" className="flex flex-col md:flex-row items-center justify-between p-4 md:p-6 gap-6">
+                <div className="flex items-center gap-6">
+                  <div className="w-12 h-12 bg-primary/10 rounded-sm flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+                    <Calendar size={24} />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-3 mb-1">
+                      <span className="text-[10px] font-black uppercase tracking-widest text-primary">Prochain Événement</span>
+                      <div className="w-1 h-1 bg-primary/30 rounded-full" />
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant opacity-60">
+                        {new Date(nextEvent.date).toLocaleDateString('fr-FR', { day: '2-digit', month: 'long', hour: '2-digit', minute: '2-digit' })}
+                      </span>
+                    </div>
+                    <h3 className="text-lg md:text-xl font-display font-black text-on-surface uppercase tracking-tight">
+                      {nextEvent.title}
+                    </h3>
+                  </div>
+                </div>
+                
+                <div className="flex items-center gap-4 w-full md:w-auto">
+                  <div className="hidden lg:flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant opacity-60 mr-8">
+                    <div className="flex items-center gap-2">
+                      {nextEvent.locationType === 'webinaire' ? <Globe size={14} /> : <MapPin size={14} />}
+                      {nextEvent.locationType === 'webinaire' ? 'Webinaire' : nextEvent.location}
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3 bg-primary text-white px-6 py-3 rounded-sm text-[10px] font-black uppercase tracking-widest shadow-lg shadow-primary/20 group-hover:gap-5 transition-all w-full md:w-auto justify-center">
+                    S'inscrire
+                    <ChevronRight size={14} />
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
         {/* Asymmetrical Header Section */}
         <header className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 md:gap-12 mb-12 md:mb-24">
           <div className="max-w-2xl">

@@ -10,7 +10,9 @@ import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import ChapterView from './pages/ChapterView';
 import Dossier from './pages/Dossier';
+import Events from './pages/Events';
 import AdminDashboard from './pages/AdminDashboard';
+import AdminEvents from './pages/AdminEvents';
 import Navbar from './components/Navbar';
 import BottomNav from './components/BottomNav';
 
@@ -133,7 +135,9 @@ export default function App() {
               <Route path="/dashboard" element={user ? <Dashboard /> : <Navigate to="/login" />} />
               <Route path="/chapter/:id" element={user ? <ChapterView /> : <Navigate to="/login" />} />
               <Route path="/dossier" element={user ? <Dossier /> : <Navigate to="/login" />} />
+              <Route path="/events" element={user ? <Events /> : <Navigate to="/login" />} />
               <Route path="/admin" element={(user && (userData?.role === 'admin' || user.email === 'birotori@gmail.com')) ? <AdminDashboard /> : <Navigate to="/dashboard" />} />
+              <Route path="/admin/events" element={(user && (userData?.role === 'admin' || user.email === 'birotori@gmail.com')) ? <AdminEvents /> : <Navigate to="/dashboard" />} />
             </Routes>
           </main>
           <BottomNav />

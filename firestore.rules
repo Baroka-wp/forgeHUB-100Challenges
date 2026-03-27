@@ -38,9 +38,42 @@ service cloud.firestore {
              (!('updatedAt' in data) || data.updatedAt is string);
     }
 
+    function isValidEvent(data) {
+      return data.keys().hasAll(['title', 'description', 'locationType', 'date']) &&
+             data.title is string && data.title.size() < 200 &&
+             data.description is string && data.description.size() < 5000 &&
+             data.locationType in ['presentiel', 'webinaire'] &&
+             data.date is string &&
+             (!('location' in data) || (data.location is string && data.location.size() < 200)) &&
+             (!('coverImage' in data) || (data.coverImage is string && data.coverImage.size() < 1000)) &&
+             (!('registrationUrl' in data) || (data.registrationUrl is string && data.registrationUrl.size() < 1000));
+    }
+
+    function isValidEventRegistration(data) {
+      return data.keys().hasAll(['eventId', 'userId', 'email', 'whatsapp']) &&
+             data.eventId is string &&
+             data.userId is string &&
+             data.email is string &&
+             data.whatsapp is string && data.whatsapp.size() < 20 &&
+             (!('registeredAt' in data) || data.registeredAt is string);
+    }
+
     // ===============================================================
     // Rules
     // ===============================================================
+    match /events/{eventId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAdmin() && isValidEvent(request.resource.data);
+    }
+
+    match /eventRegistrations/{registrationId} {
+      allow read: if isAdmin() || (isAuthenticated() && resource.data.userId == request.auth.uid);
+      allow create: if isAuthenticated() && 
+                      isValidEventRegistration(request.resource.data) && 
+                      request.resource.data.userId == request.auth.uid;
+      allow update, delete: if isAdmin() || (isAuthenticated() && resource.data.userId == request.auth.uid);
+    }
+
     match /users/{userId} {
       allow read: if isOwner(userId) || isAdmin();
       allow create: if isOwner(userId) && isValidUser(request.resource.data) && (!('role' in request.resource.data) || request.resource.data.role == 'user');

@@ -94,10 +94,14 @@ export default function AdminDashboard() {
           </div>
 
           <nav className="space-y-2">
-            <button className="w-full flex items-center gap-3 p-3 rounded-sm bg-primary text-white shadow-lg shadow-primary/20 transition-all">
+            <Link to="/admin" className="w-full flex items-center gap-3 p-3 rounded-sm bg-primary text-white shadow-lg shadow-primary/20 transition-all">
               <Users size={18} />
               <span className="text-xs font-bold uppercase tracking-widest">Utilisateurs</span>
-            </button>
+            </Link>
+            <Link to="/admin/events" className="w-full flex items-center gap-3 p-3 rounded-sm text-on-surface-variant hover:bg-surface-container-high transition-all">
+              <Clock size={18} />
+              <span className="text-xs font-bold uppercase tracking-widest">Événements</span>
+            </Link>
             {/* Placeholder for future admin sections */}
             <button className="w-full flex items-center gap-3 p-3 rounded-sm text-on-surface-variant hover:bg-surface-container-high transition-all opacity-40 cursor-not-allowed">
               <BookOpen size={18} />

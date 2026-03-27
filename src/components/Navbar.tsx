@@ -1,7 +1,7 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../App';
 import { auth } from '../firebase';
-import { LogOut, User } from 'lucide-react';
+import { LogOut, User, Calendar } from 'lucide-react';
 import { Logo } from './Logo';
 
 export default function Navbar() {
@@ -31,6 +31,9 @@ export default function Navbar() {
               </Link>
               <Link to="/dossier" className="text-on-surface-variant hover:text-primary font-semibold transition-all text-sm uppercase tracking-widest">
                 Dossier
+              </Link>
+              <Link to="/events" className="text-on-surface-variant hover:text-primary transition-all p-2 bg-surface-container-low rounded-sm hover:scale-110 active:scale-95" title="Calendrier des événements">
+                <Calendar size={18} />
               </Link>
               {(userData?.role === 'admin' || user?.email === 'birotori@gmail.com') && (
                 <Link to="/admin" className="text-primary hover:text-primary-container font-black transition-all text-sm uppercase tracking-[0.2em] border-l border-outline-variant/20 pl-8">

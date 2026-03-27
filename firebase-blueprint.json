@@ -30,6 +30,36 @@
         "updatedAt": { "type": "string", "format": "date-time" }
       },
       "required": ["chapterId", "answers"]
+    },
+    "Event": {
+      "title": "Event",
+      "description": "An event created by the admin (webinar, masterclass, etc.)",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "location": { "type": "string" },
+        "locationType": { "type": "string", "enum": ["presentiel", "webinaire"] },
+        "date": { "type": "string", "format": "date-time" },
+        "coverImage": { "type": "string" },
+        "registrationUrl": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "description", "locationType", "date"]
+    },
+    "EventRegistration": {
+      "title": "Event Registration",
+      "description": "User registration for an event",
+      "type": "object",
+      "properties": {
+        "eventId": { "type": "string" },
+        "userId": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "whatsapp": { "type": "string" },
+        "registeredAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["eventId", "userId", "email", "whatsapp"]
     }
   },
   "firestore": {
@@ -40,6 +70,14 @@
     "/users/{userId}/dossier/{chapterId}": {
       "schema": "DossierEntry",
       "description": "Entrepreneur's dossier entries"
+    },
+    "/events/{eventId}": {
+      "schema": "Event",
+      "description": "Events created by admins"
+    },
+    "/eventRegistrations/{registrationId}": {
+      "schema": "EventRegistration",
+      "description": "User registrations for events"
     }
   }
 }
