@@ -1,20 +1,20 @@
 # Chapitre 2 : Obsède-toi sur ton Client, pas sur ton Produit
 
-> "Il n'y a qu'un seul patron : le consommateur. Et il peut licencier tout le monde dans l'entreprise, du président au stagiaire, simplement en dépensant son argent ailleurs." — **Sam Walton**
+> "Il n'y a qu'un seul patron : le consommateur. Et il peut licencier tout le monde dans l'entreprise, du président au stagiaire, simplement en dépensant son argent ailleurs." - **Sam Walton**
 
 ### Le Piège du Produit
 
 La majorité des entrepreneurs passent 80% de leur temps à penser à leur produit et 20% à penser à leur client. Les entrepreneurs qui réussissent font l'inverse.
 
-Voici pourquoi : **ton produit n'a aucune valeur intrinsèque**. Sa valeur ne vient que de ce qu'il résout pour une personne précise, dans un contexte précis, à un moment précis. Si tu ne comprends pas profondément cette personne, tu peux construire la technologie la plus avancée du monde — personne ne l'achètera.
+Voici pourquoi : **ton produit n'a aucune valeur intrinsèque**. Sa valeur ne vient que de ce qu'il résout pour une personne précise, dans un contexte précis, à un moment précis. Si tu ne comprends pas profondément cette personne, tu peux construire la technologie la plus avancée du monde - personne ne l'achètera.
 
-> "Tombez amoureux du problème, pas de votre solution." — **Uri Levine, co-fondateur de Waze**
+> "Tombez amoureux du problème, pas de votre solution." - **Uri Levine, co-fondateur de Waze**
 
 ---
 
 ### Qui est ton Early Adopter ?
 
-Avant de chercher 100 clients, tu dois trouver les 10 premiers. Et ces 10 premiers ne sont pas des clients ordinaires — ce sont des **Adopteurs Précoces**.
+Avant de chercher 100 clients, tu dois trouver les 10 premiers. Et ces 10 premiers ne sont pas des clients ordinaires - ce sont des **Adopteurs Précoces**.
 
 Un Adopteur Précoce n'est pas quelqu'un qui "aime la nouveauté". C'est quelqu'un qui :
 
@@ -23,7 +23,7 @@ Un Adopteur Précoce n'est pas quelqu'un qui "aime la nouveauté". C'est quelqu'
 *   **Est prêt à payer** pour ne plus avoir ce problème
 *   **Tolère l'imperfection** de ta solution si elle résout l'essentiel
 
-Ces personnes sont ton marché de lancement. Ils ne représentent pas tout le marché — mais sans eux, tu n'atteinds jamais le reste.
+Ces personnes sont ton marché de lancement. Ils ne représentent pas tout le marché - mais sans eux, tu n'atteinds jamais le reste.
 
 <div class="callout">
   <h4>⚠️ Erreur Classique</h4>
@@ -50,13 +50,13 @@ Le Profil Micro, c'est une description si précise que tu peux visualiser une pe
 
 ### Le "Job to be Done" : La Vraie Raison d'un Achat
 
-Clayton Christensen a révolutionné le marketing avec une idée simple : **les gens n'achètent pas des produits — ils les "embauchent" pour faire un travail**.
+Clayton Christensen a révolutionné le marketing avec une idée simple : **les gens n'achètent pas des produits - ils les "embauchent" pour faire un travail**.
 
-**L'étude du milk-shake :** Une chaîne de restauration rapide voulait vendre plus de milk-shakes. Elle a segmenté par âge, genre, préférences de goût — sans résultat. Puis elle a observé : 40% des milk-shakes étaient achetés avant 8h du matin, par des gens seuls. Pourquoi ? Pas pour se faire plaisir — mais pour avoir un compagnon de route pour leur long trajet, quelque chose qui occupe la main et rassasie. Le milk-shake "faisait le job" mieux qu'une banane (trop rapide) ou un donut (trop salissant).
+**L'étude du milk-shake :** Une chaîne de restauration rapide voulait vendre plus de milk-shakes. Elle a segmenté par âge, genre, préférences de goût - sans résultat. Puis elle a observé : 40% des milk-shakes étaient achetés avant 8h du matin, par des gens seuls. Pourquoi ? Pas pour se faire plaisir - mais pour avoir un compagnon de route pour leur long trajet, quelque chose qui occupe la main et rassasie. Le milk-shake "faisait le job" mieux qu'une banane (trop rapide) ou un donut (trop salissant).
 
-**Pour ton produit :** quel est le "job" que ton client essaie vraiment de faire ? Pas la fonctionnalité — le résultat de vie qu'il cherche à atteindre.
+**Pour ton produit :** quel est le "job" que ton client essaie vraiment de faire ? Pas la fonctionnalité - le résultat de vie qu'il cherche à atteindre.
 
-> "Les gens ne veulent pas une perceuse. Ils veulent un trou dans le mur. Et en réalité, ils ne veulent pas le trou — ils veulent accrocher un tableau pour rendre leur maison belle." — **Theodore Levitt**
+> "Les gens ne veulent pas une perceuse. Ils veulent un trou dans le mur. Et en réalité, ils ne veulent pas le trou - ils veulent accrocher un tableau pour rendre leur maison belle." - **Theodore Levitt**
 
 ---
 
@@ -78,9 +78,9 @@ Questions à poser :
   <h4>Ce que tu écoutes vraiment</h4>
   Lors de ces entretiens, tu cherches trois choses :
   <ol>
-    <li><strong>La douleur réelle</strong> — Les mots exacts qu'ils utilisent pour décrire leur frustration (tu les réutiliseras dans ton marketing)</li>
-    <li><strong>Le coût du problème</strong> — Temps perdu, argent perdu, stress accumulé</li>
-    <li><strong>Ce qu'ils ont déjà essayé</strong> — C'est ton vrai paysage concurrentiel</li>
+    <li><strong>La douleur réelle</strong> - Les mots exacts qu'ils utilisent pour décrire leur frustration (tu les réutiliseras dans ton marketing)</li>
+    <li><strong>Le coût du problème</strong> - Temps perdu, argent perdu, stress accumulé</li>
+    <li><strong>Ce qu'ils ont déjà essayé</strong> - C'est ton vrai paysage concurrentiel</li>
   </ol>
 </div>
 
@@ -90,7 +90,7 @@ Questions à poser :
 
 Pour "embaucher" ton produit, ton client doit souvent "licencier" quelque chose : une habitude, un outil existant, un comportement. Cette transition a un coût psychologique réel.
 
-**Exemple :** Pour adopter ton application de gestion, un commerçant doit abandonner son cahier qu'il utilise depuis 10 ans. C'est plus qu'un outil — c'est sa façon de travailler. Si tu ne comprends pas ce coût de transition, tu ne pourras pas le réduire.
+**Exemple :** Pour adopter ton application de gestion, un commerçant doit abandonner son cahier qu'il utilise depuis 10 ans. C'est plus qu'un outil - c'est sa façon de travailler. Si tu ne comprends pas ce coût de transition, tu ne pourras pas le réduire.
 
 **Question à te poser :** Que doit abandonner ton client pour te choisir ? Et comment peux-tu rendre cette transition la moins douloureuse possible ?
 
@@ -110,7 +110,7 @@ Avant de construire quoi que ce soit, passe 30 minutes à remplir cette carte :
 | **Ses GAINS** (ce qu'il espère vraiment accomplir) | |
 
 <div class="callout">
-  <h4>Framework Business Model Canvas — Segments Clients</h4>
+  <h4>Framework Business Model Canvas - Segments Clients</h4>
   Remplis maintenant le bloc "Segments Clients" de ton Canvas. Décris ton Adopteur Précoce avec le niveau de précision du Profil Micro. Écris son "Job to be Done" principal. Identifie ce qu'il doit "licencier" pour te choisir.
 </div>
 

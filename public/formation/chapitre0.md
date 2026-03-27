@@ -1,6 +1,6 @@
 # Chapitre 0 : Le Filtre Anti-Bullshit
 
-> "La plupart des entrepreneurs ne manquent pas de passion. Ils manquent d'honnêteté envers eux-mêmes." — **Steve Blank**
+> "La plupart des entrepreneurs ne manquent pas de passion. Ils manquent d'honnêteté envers eux-mêmes." - **Steve Blank**
 
 ### Pourquoi ce chapitre existe
 
@@ -12,7 +12,7 @@ Ce chapitre n'est pas là pour te décourager. Il est là pour te faire gagner d
 
 <div class="callout">
   <h4>⚠️ Règle du Filtre</h4>
-  Tu dois répondre à toutes les questions de ce chapitre avant de passer au suivant. Si tu sautes des étapes ici, tu construiras sur du sable. Les bâtisseurs sérieux passent ce filtre — les autres abandonnent au troisième obstacle.
+  Tu dois répondre à toutes les questions de ce chapitre avant de passer au suivant. Si tu sautes des étapes ici, tu construiras sur du sable. Les bâtisseurs sérieux passent ce filtre - les autres abandonnent au troisième obstacle.
 </div>
 
 ---
@@ -26,7 +26,7 @@ Décris le problème que tu veux résoudre en **une seule phrase**, sans utilise
 
 La différence ? La version solide nomme **qui** souffre, **de quoi** exactement, et **quel en est le coût**.
 
-> "Un problème bien posé est un problème à moitié résolu." — **Charles Kettering**
+> "Un problème bien posé est un problème à moitié résolu." - **Charles Kettering**
 
 <div class="callout">
   <h4>🔥 Test de la Douleur (note de 1 à 10)</h4>
@@ -48,11 +48,11 @@ Si personne ne paie pour résoudre ce problème aujourd'hui (même avec une solu
 1. **Personne n'y a pensé avant toi** → Extrêmement rare. Méfie-toi de cette conclusion.
 2. **Le problème n'est pas assez douloureux pour justifier un paiement** → Très fréquent.
 
-Cherche des concurrents, des substituts, des workarounds. Si ton client potentiel résout déjà son problème avec Excel, WhatsApp, ou un cahier — **c'est une bonne nouvelle** : cela prouve que le besoin existe. Ta mission est de proposer mieux.
+Cherche des concurrents, des substituts, des workarounds. Si ton client potentiel résout déjà son problème avec Excel, WhatsApp, ou un cahier - **c'est une bonne nouvelle** : cela prouve que le besoin existe. Ta mission est de proposer mieux.
 
-> "S'il n'y a pas de concurrence, c'est soit que tu as trouvé une mine d'or... soit que tu t'es perdu dans le désert." — **Paul Graham**
+> "S'il n'y a pas de concurrence, c'est soit que tu as trouvé une mine d'or... soit que tu t'es perdu dans le désert." - **Paul Graham**
 
-**À faire maintenant :** Google pendant 10 minutes. Cherche des solutions existantes. Si tu n'en trouves aucune, cherche encore. Si après 20 minutes tu ne trouves toujours rien, c'est un signal d'alarme — pas un signe de génie.
+**À faire maintenant :** Google pendant 10 minutes. Cherche des solutions existantes. Si tu n'en trouves aucune, cherche encore. Si après 20 minutes tu ne trouves toujours rien, c'est un signal d'alarme - pas un signe de génie.
 
 ---
 
@@ -63,12 +63,12 @@ Voici une vérité que personne ne veut entendre : une bonne idée entre de mauv
 Réponds à ces trois questions :
 
 1. **Est-ce que tu as vécu ce problème toi-même ?** (Ou tu en as juste entendu parler ?)
-2. **As-tu un avantage unique** — réseau, expertise, accès — que d'autres n'ont pas ?
+2. **As-tu un avantage unique** - réseau, expertise, accès - que d'autres n'ont pas ?
 3. **Seras-tu encore motivé dans 18 mois**, quand les choses seront difficiles et que personne ne t'applaudit ?
 
 <div class="callout">
   <h4>Le Test de la Conversation de Minuit</h4>
-  Imagine qu'il est 23h, tu n'as pas dormi depuis 2 jours, les résultats ne viennent pas. Est-ce que tu continues à travailler sur ce projet parce que tu <strong>dois</strong> résoudre ce problème — ou parce que tu pensais juste que "ça pourrait être sympa" ?
+  Imagine qu'il est 23h, tu n'as pas dormi depuis 2 jours, les résultats ne viennent pas. Est-ce que tu continues à travailler sur ce projet parce que tu <strong>dois</strong> résoudre ce problème - ou parce que tu pensais juste que "ça pourrait être sympa" ?
   <br><br>
   Si c'est la deuxième réponse : change d'idée maintenant, avant d'investir 18 mois.
 </div>
@@ -79,9 +79,9 @@ Réponds à ces trois questions :
 
 Pas une cible abstraite. Pas "les milléniaux" ou "les femmes actives". **Dix personnes réelles**, avec un prénom, que tu pourrais appeler ce soir et qui ont ce problème.
 
-Si tu ne peux pas en citer 10 immédiatement, tu n'as pas encore fait assez de travail de terrain. C'est normal à ce stade — mais c'est ce qui doit changer avant d'aller plus loin.
+Si tu ne peux pas en citer 10 immédiatement, tu n'as pas encore fait assez de travail de terrain. C'est normal à ce stade - mais c'est ce qui doit changer avant d'aller plus loin.
 
-> "Si tu ne peux pas identifier tes 10 premiers clients, tu n'as pas encore une idée de business. Tu as une hypothèse." — **Steve Blank**
+> "Si tu ne peux pas identifier tes 10 premiers clients, tu n'as pas encore une idée de business. Tu as une hypothèse." - **Steve Blank**
 
 **Exercice obligatoire :** Remplis ce tableau pour au moins 5 personnes.
 
@@ -95,7 +95,7 @@ Si tu ne peux pas en citer 10 immédiatement, tu n'as pas encore fait assez de t
 
 ---
 
-### Test 5 : La Formule Madlib — Ton Idée en 30 Secondes
+### Test 5 : La Formule Madlib - Ton Idée en 30 Secondes
 
 Si tu ne peux pas expliquer ton idée clairement en 30 secondes, c'est que tu ne la comprends pas encore toi-même.
 
@@ -105,7 +105,7 @@ Complète cette phrase :
 
 **Exemple :** *"J'aide les vendeurs de marché à Dakar à connaître leurs stocks en temps réel grâce à une application SMS simple, contrairement aux cahiers manuels qui prennent 2h par jour et créent des erreurs coûteuses."*
 
-Si ta phrase est vague ou contient des mots comme "innovant", "révolutionnaire", "solution globale" — recommence.
+Si ta phrase est vague ou contient des mots comme "innovant", "révolutionnaire", "solution globale" - recommence.
 
 ---
 
@@ -125,4 +125,4 @@ Avant de passer au Chapitre 1, réponds honnêtement :
 
 **2 ou 3 GO** → Arrête-toi. Retravaille les points en NO-GO avant d'avancer. Une semaine de réflexion maintenant vaut mieux que 6 mois perdus.
 
-**0 ou 1 GO** → Recommence depuis le début. Ce n'est pas un échec — c'est une victoire : tu viens de t'éviter une catastrophe.
+**0 ou 1 GO** - Recommence depuis le début. Ce n'est pas un échec - c'est une victoire : tu viens de t'éviter une catastrophe.

@@ -1,6 +1,6 @@
 # Chapitre 5 : Obtenir tes 100 Premiers Clients
 
-> "La vente n'est pas une transaction. C'est une conversation qui transforme la vie de quelqu'un." — **Jeff Walker**
+> "La vente n'est pas une transaction. C'est une conversation qui transforme la vie de quelqu'un." - **Jeff Walker**
 
 ### Pourquoi la Vente fait peur (et pourquoi elle ne devrait pas)
 
@@ -8,7 +8,7 @@ Beaucoup de jeunes entrepreneurs, surtout ceux avec un profil technique ou créa
 
 C'est une erreur de cadrage fondamentale.
 
-Si ton produit résout vraiment un problème douloureux — et tu as fait ton travail aux chapitres précédents pour en être sûr — alors **ne pas vendre activement, c'est priver tes clients d'une solution dont ils ont besoin**.
+Si ton produit résout vraiment un problème douloureux - et tu as fait ton travail aux chapitres précédents pour en être sûr - alors **ne pas vendre activement, c'est priver tes clients d'une solution dont ils ont besoin**.
 
 La vente, c'est du service. C'est aider quelqu'un à prendre une décision qui va améliorer sa situation.
 
@@ -18,29 +18,29 @@ La vente, c'est du service. C'est aider quelqu'un à prendre une décision qui v
 
 Ne cherche pas à être partout. Choisis **un ou deux canaux** où tes Adopteurs Précoces sont déjà présents et concentre toute ton énergie là.
 
-**Canal 1 — La Vente Directe (le plus efficace au démarrage)**
-Appelle, envoie des messages, rencontre en personne les 10 personnes que tu as identifiées au Chapitre 0. Ce n'est pas du spam — c'est une conversation personnalisée entre quelqu'un qui a un problème et quelqu'un qui peut le résoudre.
+**Canal 1 - La Vente Directe (le plus efficace au démarrage)**
+Appelle, envoie des messages, rencontre en personne les 10 personnes que tu as identifiées au Chapitre 0. Ce n'est pas du spam - c'est une conversation personnalisée entre quelqu'un qui a un problème et quelqu'un qui peut le résoudre.
 
-**Canal 2 — Le Réseau de Confiance**
+**Canal 2 - Le Réseau de Confiance**
 Tes premiers 10 clients viendront probablement de ton réseau direct ou de recommandations. Dis à tout le monde ce que tu fais et pour qui. Sois précis : "Je cherche des petits commerçants qui perdent du temps avec leur gestion de stocks" est mille fois plus efficace que "je fais une app".
 
-**Canal 3 — La Communauté Ciblée**
-Là où tes clients se rassemblent — groupes Facebook, forums sectoriels, événements professionnels, associations. Apporte de la valeur d'abord (réponds aux questions, partage des ressources), vends ensuite.
+**Canal 3 - La Communauté Ciblée**
+Là où tes clients se rassemblent - groupes Facebook, forums sectoriels, événements professionnels, associations. Apporte de la valeur d'abord (réponds aux questions, partage des ressources), vends ensuite.
 
 <div class="callout">
   <h4>⚠️ Évite le Piège du Marketing Prématuré</h4>
-  Ne dépense pas d'argent en publicité Facebook ou Google avant d'avoir tes 10 premiers clients par voie directe. Si tu ne peux pas vendre en face à face, une publicité ne changera rien. Le paid marketing amplifie ce qui marche déjà — il ne crée pas quelque chose qui ne marche pas.
+  Ne dépense pas d'argent en publicité Facebook ou Google avant d'avoir tes 10 premiers clients par voie directe. Si tu ne peux pas vendre en face à face, une publicité ne changera rien. Le paid marketing amplifie ce qui marche déjà - il ne crée pas quelque chose qui ne marche pas.
 </div>
 
 ---
 
 ### Le Vendeur Challenger : Enseigner pour Convaincre
 
-L'étude de Dixon et Adamson sur 6 000 commerciaux a révélé quelque chose de contre-intuitif : le profil le plus performant n'est pas "le bâtisseur de relations" (celui qui est sympa et à l'écoute). C'est le **Challenger** — celui qui enseigne quelque chose de nouveau au client sur son propre business.
+L'étude de Dixon et Adamson sur 6 000 commerciaux a révélé quelque chose de contre-intuitif : le profil le plus performant n'est pas "le bâtisseur de relations" (celui qui est sympa et à l'écoute). C'est le **Challenger** - celui qui enseigne quelque chose de nouveau au client sur son propre business.
 
-Le Challenger ne vend pas un produit. Il révèle un problème invisible ou une opportunité manquée que le client n'avait pas encore vue. Ce faisant, il devient indispensable — pas en flattant, mais en apportant une perspective nouvelle.
+Le Challenger ne vend pas un produit. Il révèle un problème invisible ou une opportunité manquée que le client n'avait pas encore vue. Ce faisant, il devient indispensable - pas en flattant, mais en apportant une perspective nouvelle.
 
-**En pratique :** Avant ta conversation de vente, prépare une "insight" — une donnée, une observation, ou un cas concret qui montre à ton prospect quelque chose qu'il ne savait pas sur sa propre situation. Puis montre comment ton produit y répond.
+**En pratique :** Avant ta conversation de vente, prépare une "insight" - une donnée, une observation, ou un cas concret qui montre à ton prospect quelque chose qu'il ne savait pas sur sa propre situation. Puis montre comment ton produit y répond.
 
 ---
 
@@ -48,10 +48,10 @@ Le Challenger ne vend pas un produit. Il révèle un problème invisible ou une 
 
 Si tu vends à des entreprises ou si ton prix est supérieur à 100€/mois, la vente directe nécessite une structure. SPIN est le framework le plus prouvé :
 
-1. **S — Situation :** Comprends le contexte. "Comment gérez-vous actuellement vos stocks ?"
-2. **P — Problème :** Identifie la douleur. "Qu'est-ce qui vous frustre le plus dans ce processus ?"
-3. **I — Implication :** Fais sentir le coût de l'inaction. "Et quand vous avez une rupture de stock, qu'est-ce que ça représente comme perte pour vous ?"
-4. **N — Need-Payoff :** Montre la valeur. "Si vous pouviez éviter ces ruptures automatiquement, qu'est-ce que ça changerait pour vous ?"
+1. **S - Situation :** Comprends le contexte. "Comment gérez-vous actuellement vos stocks ?"
+2. **P - Problème :** Identifie la douleur. "Qu'est-ce qui vous frustre le plus dans ce processus ?"
+3. **I - Implication :** Fais sentir le coût de l'inaction. "Et quand vous avez une rupture de stock, qu'est-ce que ça représente comme perte pour vous ?"
+4. **N - Need-Payoff :** Montre la valeur. "Si vous pouviez éviter ces ruptures automatiquement, qu'est-ce que ça changerait pour vous ?"
 
 Note que tu ne parles de ton produit qu'à la fin, et seulement si les 3 premières étapes ont mis en évidence un besoin réel et urgent.
 
@@ -63,7 +63,7 @@ Robert Cialdini a identifié 6 principes d'influence universels. Voici comment l
 
 *   **Preuve Sociale** : "Trois commerçants du marché Sandaga utilisent déjà notre système depuis 2 mois." Les gens font confiance à ce que font les autres personnes comme eux.
 *   **Réciprocité** : Donne de la valeur avant de demander quoi que ce soit. Un conseil utile, un audit gratuit, un article informatif. Quand tu demandes ensuite, la personne se sent naturellement encline à rendre.
-*   **Rareté** : "Je travaille avec seulement 10 clients ce trimestre pour garantir un accompagnement personnalisé." La limitation crée de l'urgence — à condition qu'elle soit réelle.
+*   **Rareté** : "Je travaille avec seulement 10 clients ce trimestre pour garantir un accompagnement personnalisé." La limitation crée de l'urgence - à condition qu'elle soit réelle.
 *   **Autorité** : Partage tes résultats, tes études, tes cas clients. Deviens la référence sur le problème que tu résous.
 
 ---
@@ -95,7 +95,7 @@ Tu n'as pas besoin d'être un expert en persuasion. Tu as besoin d'une structure
 
 ### Gérer les Objections sans Paniquer
 
-Les objections ne sont pas des refus — elles sont des demandes d'information supplémentaire. Voici les plus fréquentes et comment y répondre :
+Les objections ne sont pas des refus - elles sont des demandes d'information supplémentaire. Voici les plus fréquentes et comment y répondre :
 
 **"C'est trop cher."**
 → "Par rapport à quoi ? Si on calcule ce que vous perdez actuellement en [temps/argent], est-ce que ça change la perspective ?"

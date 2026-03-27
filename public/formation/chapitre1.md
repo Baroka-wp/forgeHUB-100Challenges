@@ -1,12 +1,12 @@
 # Chapitre 1 : L'Intention et la Vision du Bâtisseur
 
-> "Vous ne deviendrez jamais une généralité vagabonde. Vous devez devenir un spécifique significatif." — **Zig Ziglar**
+> "Vous ne deviendrez jamais une généralité vagabonde. Vous devez devenir un spécifique significatif." - **Zig Ziglar**
 
 ### Tu as passé le Filtre. Et maintenant ?
 
 Si tu es là, c'est que ton idée a survécu aux 5 tests du Chapitre 0. Bien. Mais avoir une bonne idée ne suffit pas. Des milliers de bonnes idées meurent chaque année parce que ceux qui les portaient n'avaient pas clarifié **pourquoi** ils se battaient.
 
-Ce chapitre va t'obliger à aller plus loin que "j'ai envie de créer mon entreprise". Il va te forcer à articuler une **vision claire**, une **motivation solide**, et une **proposition de valeur unique** — trois fondations sans lesquelles tout le reste s'effondre.
+Ce chapitre va t'obliger à aller plus loin que "j'ai envie de créer mon entreprise". Il va te forcer à articuler une **vision claire**, une **motivation solide**, et une **proposition de valeur unique** - trois fondations sans lesquelles tout le reste s'effondre.
 
 ---
 
@@ -16,7 +16,7 @@ La plupart des jeunes entrepreneurs commencent par la mauvaise question. Ils se 
 
 Résultat : ils construisent des produits dont personne ne veut, ou pire, ils construisent des produits que les gens veulent... mais abandonnent dès que les obstacles arrivent, parce que leur motivation était superficielle.
 
-> "Si ton seul carburant est l'argent, tu abandonneras au premier obstacle sérieux. L'argent est une conséquence, pas un moteur." — **Simon Sinek**
+> "Si ton seul carburant est l'argent, tu abandonneras au premier obstacle sérieux. L'argent est une conséquence, pas un moteur." - **Simon Sinek**
 
 <div class="callout">
   <h4>Le Test des 3 Ans Difficiles</h4>
@@ -31,13 +31,13 @@ Résultat : ils construisent des produits dont personne ne veut, ou pire, ils co
 
 Une vision solide d'entrepreneur se construit sur trois niveaux. La plupart des gens ne dépassent pas le premier.
 
-**Niveau 1 — Le Quoi :** Ce que tu vas créer (produit, service, plateforme).
+**Niveau 1 - Le Quoi :** Ce que tu vas créer (produit, service, plateforme).
 *"Je vais créer une application de gestion de stocks."*
 
-**Niveau 2 — Le Pour Qui :** À qui cela bénéficie concrètement.
+**Niveau 2 - Le Pour Qui :** À qui cela bénéficie concrètement.
 *"Pour les petits commerçants qui perdent de l'argent à cause d'une mauvaise gestion."*
 
-**Niveau 3 — Le Pourquoi Profond :** Quel changement tu veux voir dans le monde.
+**Niveau 3 - Le Pourquoi Profond :** Quel changement tu veux voir dans le monde.
 *"Parce que je crois que les petits commerces de proximité méritent les mêmes outils que les grandes chaînes, et qu'ils sont le moteur économique de nos quartiers."*
 
 Le Niveau 3 est ce qui te fait lever le matin quand les Niveaux 1 et 2 ne fonctionnent pas encore.
@@ -48,16 +48,16 @@ Le Niveau 3 est ce qui te fait lever le matin quand les Niveaux 1 et 2 ne foncti
 
 Zig Ziglar a identifié que la différence entre un rêve et un objectif, c'est la structure. Voici comment donner une existence concrète à ta vision :
 
-1. **Écris-le** — Mets ta vision sur papier. Un objectif non écrit n'est qu'un souhait.
-2. **Date-le** — Sans échéance, ce n'est qu'une intention. Quand exactement tu veux obtenir ton premier client payant ?
-3. **Liste les obstacles** — Qu'est-ce qui va te freiner ? Compétences manquantes ? Capital insuffisant ? Réseau limité ?
-4. **Identifie tes alliés** — Qui peut t'aider ? Mentors, partenaires, communautés ?
-5. **Crée un plan d'action** — Les 3 prochaines actions concrètes que tu peux faire cette semaine.
-6. **Identifie les bénéfices personnels** — Qu'est-ce que tu gagnes si tu réussis ? (Liberté ? Impact ? Revenu ? Reconnaissance ?)
-7. **Commence aujourd'hui** — Pas demain. Pas "quand tu seras prêt". Maintenant.
+1. **Écris-le** - Mets ta vision sur papier. Un objectif non écrit n'est qu'un souhait.
+2. **Date-le** - Sans échéance, ce n'est qu'une intention. Quand exactement tu veux obtenir ton premier client payant ?
+3. **Liste les obstacles** - Qu'est-ce qui va te freiner ? Compétences manquantes ? Capital insuffisant ? Réseau limité ?
+4. **Identifie tes alliés** - Qui peut t'aider ? Mentors, partenaires, communautés ?
+5. **Crée un plan d'action** - Les 3 prochaines actions concrètes que tu peux faire cette semaine.
+6. **Identifie les bénéfices personnels** - Qu'est-ce que tu gagnes si tu réussis ? (Liberté ? Impact ? Revenu ? Reconnaissance ?)
+7. **Commence aujourd'hui** - Pas demain. Pas "quand tu seras prêt". Maintenant.
 
 <div class="callout">
-  <h4>Action Immédiate — La Lettre à Toi-Même</h4>
+  <h4>Action Immédiate - La Lettre à Toi-Même</h4>
   Écris une lettre de 15 lignes adressée à toi-même dans 18 mois. Décris ce que tu as accompli, qui sont tes clients, comment tu te sens. Cette lettre deviendra ton ancre dans les moments de doute.
 </div>
 
@@ -77,7 +77,7 @@ Une PVU solide répond à ces trois questions :
 
 **Exemple faible :** "Notre app est simple et intuitive." *(tout le monde dit ça)*
 
-**Exemple solide :** "Nos clients récupèrent en moyenne 1h30 par jour grâce à notre système d'alerte automatique sur les stocks — sans formation, dès le premier jour."
+**Exemple solide :** "Nos clients récupèrent en moyenne 1h30 par jour grâce à notre système d'alerte automatique sur les stocks - sans formation, dès le premier jour."
 
 ---
 
@@ -89,7 +89,7 @@ Ce qu'il appelle "l'apprentissage validé" n'est pas lire des livres ou assister
 
 *   **La Valeur** : ce qui bénéficie réellement au client. Tout le reste est du gaspillage.
 *   **Le Gaspillage** : construire des fonctionnalités que personne n'utilise, optimiser ce qui n'est pas encore cassé, préparer des pitchs au lieu de parler aux clients.
-*   **L'Unité de progrès** : pas les lignes de code, pas les slides — les apprentissages vérifiés sur tes clients réels.
+*   **L'Unité de progrès** : pas les lignes de code, pas les slides - les apprentissages vérifiés sur tes clients réels.
 
 ---
 
@@ -102,7 +102,7 @@ Un jeune entrepreneur n'a pas de biais hérités. C'est ton avantage. Tu peux qu
 **Exercice de pensée :** Dans ton secteur, quelle est la pratique que tout le monde considère normale mais qui frustre secrètement les clients ? Cette frustration est souvent l'espace dans lequel une nouvelle entreprise peut s'installer.
 
 <div class="callout">
-  <h4>Framework Business Model Canvas — Premier Bloc</h4>
+  <h4>Framework Business Model Canvas - Premier Bloc</h4>
   Commence à remplir ton Canvas. Pour l'instant, concentre-toi sur un seul bloc : <strong>Proposition de Valeur</strong>. Écris ce que tu apportes, le résultat mesurable pour ton client, et en quoi tu es différent. Ne passe pas aux autres blocs avant d'avoir une formulation qui tient en 2 phrases claires.
 </div>
 

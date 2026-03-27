@@ -1,20 +1,20 @@
 # Chapitre 4 : Sortir du Bureau et Confronter la Réalité
 
-> "Si j'avais une heure pour résoudre un problème, je passerais 55 minutes à déterminer la bonne question à poser." — **Albert Einstein**
+> "Si j'avais une heure pour résoudre un problème, je passerais 55 minutes à déterminer la bonne question à poser." - **Albert Einstein**
 
 ### La Vérité que tu ne veux pas entendre
 
-Ton bureau est ton ennemi. Tes hypothèses sur tes clients — aussi bien fondées soient-elles — sont des fictions jusqu'à ce que tu les aies testées sur le terrain. Et "le terrain", ce n'est pas un sondage Google Forms envoyé à tes contacts WhatsApp.
+Ton bureau est ton ennemi. Tes hypothèses sur tes clients - aussi bien fondées soient-elles - sont des fictions jusqu'à ce que tu les aies testées sur le terrain. Et "le terrain", ce n'est pas un sondage Google Forms envoyé à tes contacts WhatsApp.
 
 Le terrain, c'est aller là où vit ton client. Observer. Parler. Écouter. Et surtout : **regarder ce qu'il fait, pas seulement ce qu'il dit**.
 
-> "Vos clients peuvent vous dire des choses que votre instinct ne peut pas." — **Cindy Alvarez**
+> "Vos clients peuvent vous dire des choses que votre instinct ne peut pas." - **Cindy Alvarez**
 
 ---
 
 ### Genchi Gembutsu : Le Principe Toyota
 
-Toyota a révolutionné la fabrication mondiale avec un principe simple : *Genchi Gembutsu* — "Allez voir par vous-même". Quand un problème survient sur la chaîne de production, les ingénieurs Toyota ne l'analysent pas depuis leurs bureaux. Ils vont sur le terrain voir de leurs propres yeux.
+Toyota a révolutionné la fabrication mondiale avec un principe simple : *Genchi Gembutsu* - "Allez voir par vous-même". Quand un problème survient sur la chaîne de production, les ingénieurs Toyota ne l'analysent pas depuis leurs bureaux. Ils vont sur le terrain voir de leurs propres yeux.
 
 Pour toi, entrepreneur, ça signifie : avant de conclure que ton MVP fonctionne ou ne fonctionne pas, va observer tes clients en train de l'utiliser. Regarde où ils bloquent, ce qui les confond, ce qui les fait sourire.
 
@@ -40,7 +40,7 @@ Eric Ries identifie un piège dans lequel tombent presque tous les entrepreneurs
 
 <div class="callout">
   <h4>Ta North Star Metric</h4>
-  Identifie <strong>un seul indicateur</strong> — la "North Star Metric" — qui reflète le mieux la valeur que tu apportes à tes clients. Pour Spotify, c'est le temps d'écoute. Pour Airbnb, c'est le nombre de nuits réservées. Pour toi, c'est quoi ?
+  Identifie <strong>un seul indicateur</strong> - la "North Star Metric" - qui reflète le mieux la valeur que tu apportes à tes clients. Pour Spotify, c'est le temps d'écoute. Pour Airbnb, c'est le nombre de nuits réservées. Pour toi, c'est quoi ?
   <br><br>
   Cet indicateur doit être : mesurable, lié directement à la valeur client, et améliorable par tes actions.
 </div>
@@ -51,17 +51,17 @@ Eric Ries identifie un piège dans lequel tombent presque tous les entrepreneurs
 
 Avant de déclarer que ton produit est validé, tu dois passer par ces quatre étapes dans l'ordre :
 
-**Étape 1 — Validation du Problème** *(déjà fait au Chapitre 0 et 2)*
+**Étape 1 - Validation du Problème** *(déjà fait au Chapitre 0 et 2)*
 Tu as confirmé que le problème est réel, douloureux, et que des gens cherchent une solution.
 
-**Étape 2 — Validation de la Solution**
+**Étape 2 - Validation de la Solution**
 Montre ton MVP (même sous forme de maquette) à 5 clients potentiels. Observe leur réaction. Est-ce qu'ils comprennent immédiatement ce que ça fait ? Est-ce que leur première réaction est "ah, c'est exactement ce qu'il me faut" ou "hmmm, c'est intéressant" (= ils sont polis) ?
 
-**Étape 3 — Validation de la Volonté de Payer**
-Demande un vrai engagement financier — même symbolique. Une réservation à 10€, un paiement de précommande, un chèque pour une livraison future. Si personne ne veut dépenser un seul euro, retourne au Chapitre 0.
+**Étape 3 - Validation de la Volonté de Payer**
+Demande un vrai engagement financier - même symbolique. Une réservation à 10€, un paiement de précommande, un chèque pour une livraison future. Si personne ne veut dépenser un seul euro, retourne au Chapitre 0.
 
-**Étape 4 — Validation de la Rétention**
-Tes premiers clients utilisent-ils encore ton produit après 2 semaines ? Si les gens essaient et n'y reviennent pas, tu as un problème de valeur réelle — pas de marketing.
+**Étape 4 - Validation de la Rétention**
+Tes premiers clients utilisent-ils encore ton produit après 2 semaines ? Si les gens essaient et n'y reviennent pas, tu as un problème de valeur réelle - pas de marketing.
 
 ---
 
@@ -78,7 +78,7 @@ Après avoir présenté ton MVP, voici les questions les plus révélatrices à 
 *"Qu'est-ce qui vous empêcherait de l'utiliser tous les jours ?"*
 → Cette question révèle les vrais obstacles à l'adoption, ceux que tu n'avais pas anticipés.
 
-> "Ne demandez pas aux gens s'ils achèteraient votre produit. Demandez-leur de l'acheter maintenant." — **Rob Fitzpatrick, The Mom Test**
+> "Ne demandez pas aux gens s'ils achèteraient votre produit. Demandez-leur de l'acheter maintenant." - **Rob Fitzpatrick, The Mom Test**
 
 ---
 
@@ -88,12 +88,12 @@ Une équipe de Stanford voulait construire une tondeuse robotisée pour les camp
 
 En allant sur le terrain, ils ont observé une chose inattendue : les jardiniers passaient énormément de temps à identifier et arracher manuellement les mauvaises herbes entre les rangées de cultures dans les fermes voisines. Le coût de la main-d'œuvre y était prohibitif.
 
-Ils ont pivoté : une machine capable de distinguer les mauvaises herbes des plantes et de les éliminer sélectivement. Cette fois, la valeur économique était réelle — et les agriculteurs voulaient payer.
+Ils ont pivoté : une machine capable de distinguer les mauvaises herbes des plantes et de les éliminer sélectivement. Cette fois, la valeur économique était réelle - et les agriculteurs voulaient payer.
 
 **La leçon :** L'enthousiasme verbal ne vaut rien. Le comportement réel (et le portefeuille ouvert) est la seule preuve qui compte.
 
 <div class="callout">
-  <h4>Framework Business Model Canvas — Structure de Coûts & Revenus</h4>
+  <h4>Framework Business Model Canvas - Structure de Coûts & Revenus</h4>
   Avec tes données de terrain, mets à jour les blocs <strong>Flux de Revenus</strong> et <strong>Structure de Coûts</strong>. Calcule maintenant : combien te coûte l'acquisition d'un client (CAC) ? Combien un client te rapporte sur sa durée de vie (LTV) ? Si LTV est inférieur à CAC, ton modèle est cassé.
 </div>
 

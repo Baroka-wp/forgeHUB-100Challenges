@@ -162,7 +162,7 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 border-t border-outline-variant/10 pt-12">
           <Logo />
           <p className="text-on-surface-variant font-sans text-sm tracking-tight">
-            © 2026 La Forge — Inspiré par Ben Lee & Rootstrap. <br className="md:hidden" />
+            © 2026 La Forge - Inspiré par Ben Lee & Rootstrap. <br className="md:hidden" />
             Design System: Stoic Commander v1.0
           </p>
           <div className="flex gap-8 text-sm font-sans font-bold text-on-surface-variant">

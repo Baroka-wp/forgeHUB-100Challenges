@@ -32,7 +32,7 @@ export const chapters: Chapter[] = [
     quiz: [
       {
         question: "À quel score minimum (sur 10) un problème doit-il être noté pour justifier de construire une solution ?",
-        options: ["3/10 — s'il y a de l'intérêt, c'est suffisant", "7/10 — la douleur doit être significative", "5/10 — un niveau moyen est acceptable"],
+        options: ["3/10 - s'il y a de l'intérêt, c'est suffisant", "7/10 - la douleur doit être significative", "5/10 - un niveau moyen est acceptable"],
         answer: 1
       },
       {
@@ -64,7 +64,7 @@ export const chapters: Chapter[] = [
     quiz: [
       {
         question: "Selon le cadre des 3 niveaux de vision, quel niveau est le plus important pour tenir sur la durée ?",
-        options: ["Niveau 1 — Le Quoi (ce que tu construis)", "Niveau 3 — Le Pourquoi Profond (le changement que tu veux voir)", "Niveau 2 — Le Pour Qui (ton client cible)"],
+        options: ["Niveau 1 - Le Quoi (ce que tu construis)", "Niveau 3 - Le Pourquoi Profond (le changement que tu veux voir)", "Niveau 2 - Le Pour Qui (ton client cible)"],
         answer: 1
       },
       {
@@ -118,7 +118,7 @@ export const chapters: Chapter[] = [
     file: '/formation/chapitre3.md',
     exercise: {
       questions: [
-        "Quelle est l'hypothèse la plus risquée de ton business — celle dont tout dépend ? Comment peux-tu la tester en moins de 2 semaines ?",
+        "Quelle est l'hypothèse la plus risquée de ton business - celle dont tout dépend ? Comment peux-tu la tester en moins de 2 semaines ?",
         "Quel type de MVP choisiras-tu (vidéo, page de vente, concierge) et pourquoi ?",
         "Teste ton prix : demande à 5 clients potentiels combien ils paieraient. Note leurs réactions exactes.",
         "Identifie une fonctionnalité que tu voulais ajouter et à laquelle tu vas dire NON. Pourquoi ?"
@@ -150,9 +150,9 @@ export const chapters: Chapter[] = [
     file: '/formation/chapitre4.md',
     exercise: {
       questions: [
-        "Identifie ta North Star Metric — l'indicateur unique qui reflète le mieux la valeur que tu apportes. Comment vas-tu la mesurer ?",
+        "Identifie ta North Star Metric - l'indicateur unique qui reflète le mieux la valeur que tu apportes. Comment vas-tu la mesurer ?",
         "Observe 3 clients utiliser ton MVP en conditions réelles. Note exactement où ils bloquent et ce qui les surprend.",
-        "Obtiens un premier paiement réel — même symbolique. Décris la conversation qui y a mené.",
+        "Obtiens un premier paiement réel - même symbolique. Décris la conversation qui y a mené.",
         "Remplis le tableau de décision Pivoter/Persévérer selon tes données actuelles."
       ],
       category: "Validation Terrain"
@@ -170,7 +170,7 @@ export const chapters: Chapter[] = [
       },
       {
         question: "Si tes clients utilisent ton produit mais ne paient pas, quel est le problème principal ?",
-        options: ["Problème de notoriété — tu n'es pas assez connu", "Problème de modèle économique — teste différentes approches de prix", "Problème de produit — améliore les fonctionnalités"],
+        options: ["Problème de notoriété - tu n'es pas assez connu", "Problème de modèle économique - teste différentes approches de prix", "Problème de produit - améliore les fonctionnalités"],
         answer: 1
       }
     ]
@@ -185,19 +185,19 @@ export const chapters: Chapter[] = [
         "Choisis 1 ou 2 canaux d'acquisition principaux et justifie ce choix en fonction de là où sont tes Adopteurs Précoces.",
         "Rédige ton script de vente de 60 secondes en suivant la structure : Accroche → Curiosité → Preuve → Offre.",
         "Crée ton tableau de suivi des 100 premiers prospects. Complète-le avec les 10 premières conversations que tu vas avoir cette semaine.",
-        "Identifie le 'problème invisible' de ton client — ce qu'il ne voit pas encore et que tu peux lui enseigner."
+        "Identifie le 'problème invisible' de ton client - ce qu'il ne voit pas encore et que tu peux lui enseigner."
       ],
       category: "Vente & Acquisition"
     },
     quiz: [
       {
         question: "Selon 'The Challenger Sale', quel est le profil de vendeur le plus performant ?",
-        options: ["Le Bâtisseur de Relations — toujours disponible et à l'écoute", "Le Challenger — qui enseigne quelque chose de nouveau au client sur son business", "Le Loup Solitaire — qui travaille de façon autonome et intuitive"],
+        options: ["Le Bâtisseur de Relations - toujours disponible et à l'écoute", "Le Challenger - qui enseigne quelque chose de nouveau au client sur son business", "Le Loup Solitaire - qui travaille de façon autonome et intuitive"],
         answer: 1
       },
       {
         question: "Que signifie le 'I' dans la méthode SPIN Selling ?",
-        options: ["Innovation — montre ce que ton produit innove", "Implication — fais comprendre les conséquences du problème non résolu", "Intérêt — suscite l'intérêt pour ta solution"],
+        options: ["Innovation - montre ce que ton produit innove", "Implication - fais comprendre les conséquences du problème non résolu", "Intérêt - suscite l'intérêt pour ta solution"],
         answer: 1
       },
       {
@@ -234,7 +234,7 @@ export const chapters: Chapter[] = [
       },
       {
         question: "Quel KPI minimum de rétention à 30 jours indique un produit viable ?",
-        options: ["10% — si une personne sur dix revient, c'est un début", "40% — en dessous, il y a un problème de valeur produit à résoudre", "80% — la majorité doit revenir pour que le modèle soit sain"],
+        options: ["10% - si une personne sur dix revient, c'est un début", "40% - en dessous, il y a un problème de valeur produit à résoudre", "80% - la majorité doit revenir pour que le modèle soit sain"],
         answer: 1
       }
     ]
