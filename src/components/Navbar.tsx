@@ -32,7 +32,7 @@ export default function Navbar() {
             </div>
             <div className="flex items-center gap-3 md:gap-5 md:pl-8 md:border-l border-outline-variant/20">
               <div className="flex flex-col items-end">
-                <span className="text-xs md:text-sm font-bold text-on-surface truncate max-w-[100px] md:max-w-none">
+                <span className="text-xs md:text-sm font-bold text-on-surface truncate max-w-[150px] md:max-w-none">
                   {userData?.displayName || user.email?.split('@')[0]}
                 </span>
                 <span className="hidden md:block text-[10px] uppercase tracking-widest text-on-surface-variant font-bold opacity-60">

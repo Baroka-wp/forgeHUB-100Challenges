@@ -172,9 +172,9 @@ export default function ChapterView() {
             <span className="hidden sm:inline">Tableau de bord</span>
             <span className="sm:hidden">Retour</span>
           </Link>
-          <div className="text-right truncate">
+          <div className="text-right">
             <span className="text-[9px] md:text-[10px] font-bold text-on-surface-variant uppercase tracking-[0.3em] block mb-0.5 md:mb-1 opacity-60">Module {chapterIndex + 1}</span>
-            <h1 className="text-sm md:text-xl font-display font-extrabold text-primary tracking-tight truncate">{chapter.title}</h1>
+            <h1 className="text-sm md:text-xl font-display font-extrabold text-primary tracking-tight leading-tight">{chapter.title}</h1>
           </div>
         </div>
         
