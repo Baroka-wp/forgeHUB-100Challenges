@@ -11,6 +11,7 @@ import Dashboard from './pages/Dashboard';
 import ChapterView from './pages/ChapterView';
 import Dossier from './pages/Dossier';
 import Navbar from './components/Navbar';
+import BottomNav from './components/BottomNav';
 
 import { LogoIcon } from './components/Logo';
 
@@ -106,7 +107,7 @@ export default function App() {
       <Router>
         <div className="min-h-screen bg-surface flex flex-col selection:bg-primary/20 selection:text-primary">
           <Navbar />
-          <main className="flex-grow">
+          <main className={`flex-grow ${user ? 'pb-20 md:pb-0' : ''}`}>
             <Routes>
               <Route path="/" element={user ? <Navigate to="/dashboard" /> : <Landing />} />
               <Route path="/login" element={user ? <Navigate to="/dashboard" /> : <Login />} />
@@ -116,6 +117,7 @@ export default function App() {
               <Route path="/dossier" element={user ? <Dossier /> : <Navigate to="/login" />} />
             </Routes>
           </main>
+          <BottomNav />
         </div>
       </Router>
     </AuthContext.Provider>

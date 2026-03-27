@@ -10,28 +10,28 @@ export default function Dashboard() {
   const progressPercentage = Math.round((completedCount / chapters.length) * 100);
 
   return (
-    <div className="min-h-screen bg-surface py-16 px-8 lg:px-16">
+    <div className="min-h-screen bg-surface py-8 md:py-16 px-4 md:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto">
         {/* Asymmetrical Header Section */}
-        <header className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-12 mb-24">
+        <header className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 md:gap-12 mb-12 md:mb-24">
           <div className="max-w-2xl">
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-on-surface-variant mb-6 block opacity-70">
+            <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] text-on-surface-variant mb-4 md:mb-6 block opacity-70">
               Tableau de bord de Direction
             </span>
-            <h1 className="text-6xl lg:text-8xl font-display font-extrabold text-primary leading-[0.9] tracking-tighter mb-8">
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-display font-extrabold text-primary leading-[0.9] tracking-tighter mb-6 md:mb-8">
               Bonjour, <br />
               <span className="text-on-surface">{userData?.displayName || user?.email?.split('@')[0]}</span>
             </h1>
-            <p className="text-xl text-on-surface-variant font-medium max-w-lg leading-relaxed">
+            <p className="text-lg md:text-xl text-on-surface-variant font-medium max-w-lg leading-relaxed">
               Maintenez votre vision. Chaque chapitre est une étape vers la maîtrise de votre produit.
             </p>
           </div>
           
           {/* Zen Tracker - Custom Component */}
-          <div className="w-full lg:w-96 bg-surface-container-low p-8 rounded-sm border border-outline-variant/20">
+          <div className="w-full lg:w-96 bg-surface-container-low p-6 md:p-8 rounded-sm border border-outline-variant/20">
             <div className="flex justify-between items-end mb-4">
               <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Progression Visionnaire</span>
-              <span className="text-3xl font-display font-extrabold text-primary">{progressPercentage}%</span>
+              <span className="text-2xl md:text-3xl font-display font-extrabold text-primary">{progressPercentage}%</span>
             </div>
             <div className="h-1.5 w-full bg-surface-container-high rounded-sm overflow-hidden relative">
               <motion.div 
@@ -52,7 +52,7 @@ export default function Dashboard() {
         </header>
 
         {/* Chapters Grid - Tonal Layering */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12">
           {chapters.map((chapter, index) => {
             const isCompleted = userData?.completedChapters?.includes(chapter.id);
             const isLocked = index > 0 && !userData?.completedChapters?.includes(chapters[index - 1].id);
@@ -63,12 +63,12 @@ export default function Dashboard() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05 }}
-                className={`group relative bg-surface-container-lowest p-10 rounded-sm border border-outline-variant/10 transition-all duration-500 ${
+                className={`group relative bg-surface-container-lowest p-6 md:p-10 rounded-sm border border-outline-variant/10 transition-all duration-500 ${
                   isLocked ? 'opacity-40 grayscale pointer-events-none' : 'hover:bg-surface-container-high hover:-translate-y-2'
                 }`}
               >
                 {/* Chapter Number - Editorial Style */}
-                <div className="absolute -top-6 -left-4 text-9xl font-display font-black text-on-surface/[0.03] select-none group-hover:text-primary/[0.05] transition-colors">
+                <div className="absolute -top-4 -left-2 md:-top-6 md:-left-4 text-7xl md:text-9xl font-display font-black text-on-surface/[0.03] select-none group-hover:text-primary/[0.05] transition-colors">
                   {index + 1}
                 </div>
 
