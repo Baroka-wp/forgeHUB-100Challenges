@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Sparkles, Target, Users, Rocket } from 'lucide-react';
+import { Logo } from '../components/Logo';
 
 export default function Landing() {
   return (
@@ -159,11 +160,9 @@ export default function Landing() {
       {/* Footer */}
       <footer className="py-20 px-6 bg-surface text-center">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 border-t border-outline-variant/10 pt-12">
-          <div className="flex items-center gap-2 font-display font-black text-2xl text-primary">
-            FORGE<span className="text-on-surface">HUB</span>
-          </div>
+          <Logo />
           <p className="text-on-surface-variant font-sans text-sm tracking-tight">
-            © 2026 ForgeHub — Inspiré par Ben Lee & Rootstrap. <br className="md:hidden" />
+            © 2026 La Forge — Inspiré par Ben Lee & Rootstrap. <br className="md:hidden" />
             Design System: Stoic Commander v1.0
           </p>
           <div className="flex gap-8 text-sm font-sans font-bold text-on-surface-variant">

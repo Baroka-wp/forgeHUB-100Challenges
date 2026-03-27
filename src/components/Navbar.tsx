@@ -1,7 +1,8 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../App';
 import { auth } from '../firebase';
-import { LogOut, User, BookOpen } from 'lucide-react';
+import { LogOut, User } from 'lucide-react';
+import { Logo } from './Logo';
 
 export default function Navbar() {
   const { user, userData } = useAuth();
@@ -15,10 +16,7 @@ export default function Navbar() {
   return (
     <nav className="bg-surface/80 backdrop-blur-xl border-b border-outline-variant/15 px-6 h-16 flex items-center justify-between sticky top-0 z-50">
       <Link to="/" className="flex items-center gap-3">
-        <div className="bg-gradient-to-br from-primary to-primary-container text-on-primary p-2 rounded-sm border border-white/10">
-          <BookOpen size={20} />
-        </div>
-        <span className="font-display text-xl font-extrabold tracking-tighter text-primary">ForgeHub</span>
+        <Logo />
       </Link>
 
       <div className="flex items-center gap-8">

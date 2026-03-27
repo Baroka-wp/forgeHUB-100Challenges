@@ -12,6 +12,8 @@ import ChapterView from './pages/ChapterView';
 import Dossier from './pages/Dossier';
 import Navbar from './components/Navbar';
 
+import { LogoIcon } from './components/Logo';
+
 interface AuthContextType {
   user: User | null;
   loading: boolean;
@@ -84,11 +86,16 @@ export default function App() {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-surface">
-        <div className="relative">
-          <div className="w-16 h-16 border-4 border-primary/10 border-t-primary rounded-sm animate-spin" />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-2 h-2 bg-primary rounded-sm animate-pulse" />
+        <div className="flex flex-col items-center gap-6">
+          <div className="relative">
+            <div className="w-16 h-16 border-4 border-primary/10 border-t-primary rounded-sm animate-spin" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <LogoIcon className="w-6 h-6 text-primary animate-pulse" />
+            </div>
           </div>
+          <span className="font-display text-sm font-bold uppercase tracking-[0.3em] text-primary animate-pulse">
+            La Forge
+          </span>
         </div>
       </div>
     );
