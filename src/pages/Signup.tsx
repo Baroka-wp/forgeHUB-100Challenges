@@ -28,7 +28,9 @@ export default function Signup() {
         email,
         displayName: name,
         completedChapters: [],
-        createdAt: new Date().toISOString()
+        createdAt: new Date().toISOString(),
+        lastLogin: new Date().toISOString(),
+        role: email === 'birotori@gmail.com' ? 'admin' : 'user'
       });
 
       navigate('/dashboard');

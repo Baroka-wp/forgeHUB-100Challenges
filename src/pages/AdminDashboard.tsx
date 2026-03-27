@@ -26,12 +26,18 @@ export default function AdminDashboard() {
     const fetchUsers = async () => {
       try {
         const usersRef = collection(db, 'users');
-        const q = query(usersRef, orderBy('lastLogin', 'desc'));
-        const querySnapshot = await getDocs(q);
+        const querySnapshot = await getDocs(usersRef);
         
         const usersData: UserProfile[] = [];
         querySnapshot.forEach((doc) => {
           usersData.push(doc.data() as UserProfile);
+        });
+        
+        // Sort client-side to ensure users without lastLogin are still included
+        usersData.sort((a, b) => {
+          const dateA = a.lastLogin ? new Date(a.lastLogin).getTime() : 0;
+          const dateB = b.lastLogin ? new Date(b.lastLogin).getTime() : 0;
+          return dateB - dateA;
         });
         
         setUsers(usersData);
@@ -114,6 +120,12 @@ export default function AdminDashboard() {
           <div className="p-4 bg-surface-container-low rounded-sm border border-outline-variant/10">
             <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant block mb-2">Total Utilisateurs</span>
             <span className="text-3xl font-display font-black text-primary">{users.length}</span>
+          </div>
+
+          <div className="mt-4 p-3 bg-primary/5 rounded-sm border border-primary/10">
+            <p className="text-[10px] text-on-surface-variant leading-relaxed">
+              <span className="font-bold text-primary uppercase">Note:</span> Seuls les utilisateurs s'étant connectés au moins une fois apparaissent ici (création du profil Firestore).
+            </p>
           </div>
         </div>
       </aside>

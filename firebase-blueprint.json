@@ -13,9 +13,11 @@
           "items": { "type": "string" },
           "description": "List of chapter IDs completed by the user"
         },
+        "role": { "type": "string", "enum": ["admin", "user"] },
+        "lastLogin": { "type": "string", "format": "date-time" },
         "createdAt": { "type": "string", "format": "date-time" }
       },
-      "required": ["uid", "email"]
+      "required": ["uid", "email", "role"]
     },
     "DossierEntry": {
       "title": "Dossier Entry",
