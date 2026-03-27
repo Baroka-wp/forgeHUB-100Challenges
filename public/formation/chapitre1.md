@@ -1,25 +1,40 @@
 # Chapitre 1 : L'Intention et la Vision du Bâtisseur
 
+> "Vous ne deviendrez jamais une généralité vagabonde. Vous devez devenir un spécifique significatif." — **Zig Ziglar**
+
 ### Pourquoi êtes-vous vraiment ici ?
-Avant de toucher à votre clavier, posez-vous la question : quel est le rêve au bout du tunnel ? De nombreux entrepreneurs échouent à cause de leurs angles morts. Certains sous-estiment leurs capacités, d'autres sont aveuglés par l'orgueil. Ce cours exige une **honnêteté absolue**, à commencer par vous-même. Pourquoi passer par tous ces ennuis, ces hauts et ces bas ? Qu'y a-t-il à gagner ?
+Avant de toucher à votre clavier, posez-vous la question : quel est le rêve au bout du tunnel ? De nombreux entrepreneurs échouent à cause de leurs angles morts. Certains sous-estiment leurs capacités, d'autres sont aveuglés par l'orgueil. Ce cours exige une **honnêteté absolue**, à commencer par vous-même. 
 
-### La Méthode Zig Ziglar : Devenir un "Spécifique Significatif"
-Zig Ziglar affirmait qu'on ne devient jamais une "généralité vagabonde". Pour réussir, vous devez devenir un "spécifique significatif". Voici ses sept étapes pour l'établissement d'objectifs :
-1. **Écrivez-le** : Donnez une existence physique à votre ambition.
-2. **Mettez une date** : Sans échéance, ce n'est qu'un souhait.
-3. **Énumérez les obstacles** : Anticipez ce qui va vous freiner.
-4. **Identifiez vos alliés** : Personnes, groupes ou organisations nécessaires.
-5. **Énoncez un plan d'action** : Le "comment" concret.
-6. **Identifiez les avantages** : Pourquoi est-ce bon pour *vous* ?
-7. **Faites-le MAINTENANT** : L'action immédiate est le seul remède à la procrastination.
+<div class="callout">
+  <h4>L'Intention Stratégique</h4>
+  Pourquoi passer par tous ces ennuis, ces hauts et ces bas ? Qu'y a-t-il à gagner ? Si votre seule motivation est l'argent, vous abandonnerez au premier obstacle majeur. Vous devez trouver ce qui entretient votre "feu" intérieur.
+</div>
 
-### La Motivation "Maverick"
-Gary Hamel souligne que la plupart des gens dans une industrie sont "aveugles de la même manière". Être un non-conformiste (Maverick), c'est repenser la logique de son propre succès. Richard Tait (Cranium) explique qu'il ne s'agit pas d'un travail, mais de la poursuite d'un rêve : donner à chacun une chance de briller.
-*   **Question clé** : Pour quelle(s) idée(s) votre entreprise se bat-elle ? Quelles sont les valeurs que vous défendez ?
+### La Méthode Zig Ziglar : Les 7 Étapes du Succès
+Zig Ziglar était un génie de la psychologie de la performance. Voici sa méthode pour transformer une vague idée en une mission concrète :
 
-### Introduction au Lean Startup : L'Expérience Scientifique
-Eric Ries définit une startup comme une organisation qui crée de nouveaux produits dans des conditions d'**extrême incertitude**. Le but n'est pas seulement de construire, mais de découvrir ce que les clients veulent *réellement*.
-*   **Valeur** : Tout ce qui profite au client. Si vous ne créez pas de valeur, vous générez du gaspillage.
-*   **Apprentissage Validé** : La méthode pour mesurer si vous progressez réellement ou si vous faites du "théâtre du succès".
+1.  **Écrivez-le** : Donnez une existence physique à votre ambition.
+2.  **Mettez une date** : Sans échéance, ce n'est qu'un souhait.
+3.  **Énumérez les obstacles** : Anticipez ce qui va vous freiner.
+4.  **Identifiez vos alliés** : Personnes, groupes ou organisations nécessaires.
+5.  **Énoncez un plan d'action** : Le "comment" concret.
+6.  **Identifiez les avantages** : Pourquoi est-ce bon pour *vous* ?
+7.  **Faites-le MAINTENANT** : L'action immédiate est le seul remède à la procrastination.
 
----
+> "Donnez-moi un commis aux stocks avec un objectif et je vous donnerai un homme qui marquera l'histoire. Donnez-moi un homme sans but, et je vous donnerai un commis au stock !" — **JC Penney**
+
+### La Vision "Maverick"
+Gary Hamel souligne que la plupart des gens dans une industrie sont "aveugles de la même manière". Ils prêtent tous attention aux mêmes choses et ignorent les mêmes opportunités. 
+
+Être un **Maverick** (un non-conformiste), c'est avoir le courage de remettre en question la logique dominante de son secteur. Richard Tait (fondateur de Cranium) explique qu'il ne s'agit pas d'un travail, mais de la poursuite d'un rêve : donner à chacun une chance de briller.
+
+### Introduction au Lean Startup
+Eric Ries définit une startup comme une organisation qui crée de nouveaux produits dans des conditions d'**extrême incertitude**. 
+
+*   **La Valeur** : Elle est définie par ce qui apporte un bénéfice réel au client. Tout le reste est du gaspillage (*waste*).
+*   **L'Apprentissage Validé** : C'est l'unité de progrès d'une startup. Ce n'est pas le nombre de lignes de code écrites, mais la quantité de vérité découverte sur vos clients.
+
+<div class="callout">
+  <h4>Le Framework Canva (Aperçu)</h4>
+  Pour décrire votre projet, nous utiliserons des notions du Business Model Canvas. Commencez par identifier votre <strong>Proposition de Valeur Unique</strong> : quel est le bénéfice spécifique que vous apportez et que personne d'autre n'offre ?
+</div>

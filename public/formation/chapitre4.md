@@ -1,24 +1,28 @@
-# Chapitre 4 : Validation sur le Terrain (Sortez de l'immeuble)
+# Chapitre 4 : Validation sur le Terrain
 
-### Genchi Gembutsu : Allez voir par vous-même
-Inspiré par Toyota, Eric Ries utilise le terme "Genchi Gembutsu" : vous ne pouvez pas comprendre un problème depuis votre bureau. Vous devez aller là où le travail se fait. Steve Blank appelle cela "Get Out of the Building".
+> "Si j'avais une heure pour résoudre un problème, je passerais 55 minutes à déterminer la bonne question à poser." — **Albert Einstein**
 
-### L'Art de la Conversation de Feedback
-Douglas Stone et Sheila Heen expliquent que le feedback est souvent mal géré. Pour votre produit, vous avez besoin de trois types de feedback :
-1. **Appréciation** : Est-ce que le problème que vous résolvez existe vraiment pour eux ?
-2. **Coaching** : Laissez-les parler. Ne vendez pas, écoutez leurs frustrations.
-3. **Évaluation** : Comment comparent-ils votre solution à ce qu'ils utilisent déjà ?
+### Genchi Gembutsu : Allez et Voyez
+Inspiré par Toyota, ce principe signifie que vous ne pouvez pas comprendre un problème depuis votre bureau. Vous devez aller sur le terrain, là où le client vit son problème.
 
-### La Comptabilité de l'Innovation
-Ne mesurez pas votre succès par des "Vanity Metrics" (nombre de likes, visites brutes). Utilisez la comptabilité de l'innovation :
-*   **Établissez une ligne de base** : Comment les clients se comportent-ils avec votre MVP aujourd'hui ?
-*   **Ajustez le moteur** : Chaque modification doit viser à améliorer un indicateur clé (ex: taux de conversion).
-*   **Pivoter ou Persévérer** : Si vos efforts n'améliorent plus vos indicateurs, il est temps de changer de stratégie.
+<div class="callout">
+  <h4>L'Interview de Validation</h4>
+  Ne demandez pas : "Est-ce que vous aimeriez ce produit ?". Les gens sont polis et vous mentiront. Demandez : "Racontez-moi la dernière fois que vous avez eu ce problème. Comment l'avez-vous résolu ? Combien cela vous a-t-il coûté ?".
+</div>
 
-### Étude de Cas : La Tondeuse Robotisée
-Une équipe d'étudiants de Stanford voulait créer une tondeuse robotisée pour les campus.
-*   **Le choc** : Les clients potentiels leur ont dit : *"On paie quelqu'un 8$/h pour ça, votre machine à 250 000$ ne nous intéresse pas."*
-*   **Le Pivot** : En allant voir des agriculteurs, ils ont découvert que le vrai problème n'était pas de couper l'herbe, mais de tuer les mauvaises herbes sans produits chimiques. Ils ont pivoté vers l'agriculture de précision.
-*   **Leçon** : Le marché vous dira ce dont il a besoin, si vous l'écoutez.
+### Vanity Metrics vs. Actionable Metrics
+Eric Ries nous met en garde contre les "Vanity Metrics" (indicateurs de vanité) comme le nombre total de téléchargements ou de likes. Ils flattent l'ego mais ne disent rien sur la viabilité du business.
 
----
+*   **Actionable Metrics** : Des indicateurs qui démontrent une relation de cause à effet (ex: taux de rétention, coût d'acquisition client).
+
+> "Si nous construisons quelque chose dont personne ne veut, peu importe que nous le fassions à temps et en respectant le budget." — **Eric Ries**
+
+### Étude de Cas : Le Pivot de la Tondeuse Robotisée
+Une équipe de Stanford voulait construire une tondeuse robotisée pour les campus. Les clients potentiels trouvaient l'idée "stupide" car la main-d'œuvre était moins chère que la machine. 
+
+Ils ont pivoté vers l'agriculture de précision : une machine capable de distinguer les mauvaises herbes des plantes et de les tuer sélectivement. Là, la valeur économique était immense.
+
+<div class="callout">
+  <h4>Le Framework Canva : Structure de Coûts & Revenus</h4>
+  Votre idée en vaut-elle la peine ? Si votre coût d'acquisition client est supérieur à la valeur qu'il vous rapporte sur le long terme, votre business n'est pas viable.
+</div>

@@ -39,13 +39,23 @@
 
 .markdown-body {
   @apply prose prose-slate max-w-none;
-  h1 { @apply text-3xl mb-6; }
-  h2 { @apply text-2xl mt-8 mb-4; }
-  h3 { @apply text-xl mt-6 mb-3; }
-  p { @apply mb-4 leading-relaxed; }
-  ul { @apply list-disc pl-6 mb-4; }
-  li { @apply mb-2; }
+  h1 { @apply text-4xl mb-8 font-black tracking-tighter text-primary; }
+  h2 { @apply text-2xl mt-12 mb-6 font-bold border-b border-outline-variant/20 pb-2; }
+  h3 { @apply text-xl mt-8 mb-4 font-bold text-primary-container; }
+  p { @apply mb-6 leading-relaxed text-on-surface/80; }
+  ul { @apply list-disc pl-6 mb-6 space-y-2; }
+  li { @apply text-on-surface/80; }
   strong { @apply font-bold text-primary; }
+  
+  blockquote {
+    @apply border-l-4 border-primary bg-primary/5 p-6 my-8 italic rounded-r-lg text-lg text-primary-container font-medium;
+    p { @apply m-0; }
+  }
+
+  .callout {
+    @apply bg-surface-container-low border border-outline-variant/30 p-8 my-10 rounded-xl shadow-sm;
+    h4 { @apply text-primary font-bold uppercase tracking-widest text-xs mb-4; }
+  }
 }
 
 /* Quill Editor Customization */

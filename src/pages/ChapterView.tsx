@@ -1,6 +1,7 @@
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import { chapters } from '../content/chapters';
 import { useAuth } from '../App';
 import { db, handleFirestoreError, OperationType } from '../firebase';
@@ -189,7 +190,7 @@ export default function ChapterView() {
               className="bg-surface-container-lowest p-12 md:p-24 rounded-xl shadow-[0_4px_30px_rgba(25,28,30,0.03)]"
             >
               <div className="markdown-body">
-                <ReactMarkdown>{content}</ReactMarkdown>
+                <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
               </div>
 
               <div className="mt-24 pt-16 border-t border-outline-variant/10 flex flex-col items-start max-w-2xl">
