@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="bg-surface/80 backdrop-blur-xl border-b border-outline-variant/15 px-6 h-16 flex items-center justify-between sticky top-0 z-50">
       <Link to="/" className="flex items-center gap-3">
-        <div className="bg-gradient-to-br from-primary to-primary-container text-on-primary p-2 rounded-md shadow-sm">
+        <div className="bg-gradient-to-br from-primary to-primary-container text-on-primary p-2 rounded-sm border border-white/10">
           <BookOpen size={20} />
         </div>
         <span className="font-display text-xl font-extrabold tracking-tighter text-primary">ForgeHub</span>
@@ -51,10 +51,10 @@ export default function Navbar() {
             <Link to="/login" className="text-on-surface-variant hover:text-primary font-bold transition-colors text-sm uppercase tracking-widest">
               Connexion
             </Link>
-            <Link 
-              to="/signup" 
-              className="bg-gradient-to-r from-primary to-primary-container text-on-primary px-6 py-2 rounded-md font-bold hover:shadow-lg hover:shadow-primary/20 transition-all text-sm uppercase tracking-widest"
-            >
+              <Link 
+                to="/signup" 
+                className="bg-gradient-to-r from-primary to-primary-container text-on-primary px-6 py-2 rounded-sm font-bold border border-white/10 transition-all text-sm uppercase tracking-widest"
+              >
               Démarrer
             </Link>
           </div>

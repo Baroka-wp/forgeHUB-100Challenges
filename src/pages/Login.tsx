@@ -32,7 +32,13 @@ export default function Login() {
       await signInWithPopup(auth, provider);
       navigate('/dashboard');
     } catch (err: any) {
-      setError(err.message);
+      if (err.code === 'auth/popup-closed-by-user') {
+        setError('La fenêtre de connexion a été fermée. Veuillez réessayer.');
+      } else if (err.code === 'auth/popup-blocked') {
+        setError('Le popup a été bloqué par votre navigateur. Veuillez autoriser les popups pour ce site.');
+      } else {
+        setError(err.message);
+      }
     }
   };
 
@@ -46,7 +52,7 @@ export default function Login() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="max-w-md w-full bg-surface-container-lowest p-12 rounded-2xl shadow-[0_32px_64px_rgba(25,28,30,0.08)] border border-outline-variant/10 relative z-10"
+        className="max-w-md w-full bg-surface-container-lowest p-12 rounded-sm border border-outline-variant/20 relative z-10"
       >
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 mb-8">
@@ -104,7 +110,7 @@ export default function Login() {
           <button 
             type="submit" 
             disabled={loading}
-            className="w-full bg-gradient-to-r from-primary to-primary-container text-white py-5 rounded-lg font-sans font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-primary/30 hover:-translate-y-1 transition-all flex items-center justify-center gap-3 disabled:opacity-50 disabled:translate-y-0"
+            className="w-full bg-gradient-to-r from-primary to-primary-container text-white py-5 rounded-sm font-sans font-bold text-lg border border-white/10 hover:-translate-y-1 transition-all flex items-center justify-center gap-3 disabled:opacity-50 disabled:translate-y-0"
           >
             {loading ? (
               <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
@@ -120,7 +126,7 @@ export default function Login() {
         <div className="mt-10 pt-10 border-t border-outline-variant/5">
           <button 
             onClick={handleGoogleLogin}
-            className="w-full bg-surface-bright border border-outline-variant/10 text-on-surface py-4 rounded-lg font-sans font-bold flex items-center justify-center gap-4 hover:bg-surface-container-low transition-all"
+            className="w-full bg-surface-bright border border-outline-variant/10 text-on-surface py-4 rounded-sm font-sans font-bold flex items-center justify-center gap-4 hover:bg-surface-container-low transition-all"
           >
             <img src="https://www.google.com/favicon.ico" className="w-5 h-5" alt="Google" />
             Continuer avec Google

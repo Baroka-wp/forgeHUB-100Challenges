@@ -39,7 +39,7 @@ export default function Landing() {
               <div className="flex flex-col sm:flex-row items-center gap-8">
                 <Link 
                   to="/signup" 
-                  className="group relative bg-gradient-to-r from-primary to-primary-container text-white px-12 py-6 rounded-md text-lg font-sans font-bold shadow-2xl shadow-primary/30 hover:shadow-primary/40 hover:-translate-y-1 transition-all w-full sm:w-auto text-center"
+                  className="group relative bg-gradient-to-r from-primary to-primary-container text-white px-12 py-6 rounded-sm text-lg font-sans font-bold border border-white/10 hover:-translate-y-1 transition-all w-full sm:w-auto text-center"
                 >
                   Démarrer l'Ascension
                   <ArrowRight className="inline-block ml-3 group-hover:translate-x-1 transition-transform" />
@@ -59,7 +59,7 @@ export default function Landing() {
               transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="lg:col-span-5 relative"
             >
-              <div className="relative z-10 rounded-2xl overflow-hidden shadow-[0_32px_64px_rgba(87,0,5,0.15)] group">
+              <div className="relative z-10 rounded-sm overflow-hidden border border-primary/20 group">
                 <div className="absolute inset-0 bg-primary/20 mix-blend-overlay group-hover:opacity-0 transition-opacity duration-700" />
                 <img 
                   src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=1000" 
@@ -69,7 +69,7 @@ export default function Landing() {
                 />
               </div>
               {/* Asymmetrical decorative frame */}
-              <div className="absolute -inset-4 border border-primary/10 rounded-2xl -z-10 translate-x-8 translate-y-8" />
+              <div className="absolute -inset-4 border border-primary/10 rounded-sm -z-10 translate-x-8 translate-y-8" />
             </motion.div>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function Landing() {
             </p>
             <Link 
               to="/signup" 
-              className="inline-block bg-primary text-white px-16 py-8 rounded-md text-xl font-sans font-black hover:bg-primary-container transition-all shadow-[0_20px_50px_rgba(0,0,0,0.8)] hover:-translate-y-2 active:translate-y-0 border border-white/20"
+              className="inline-block bg-primary text-white px-16 py-8 rounded-sm text-xl font-sans font-black hover:bg-primary-container transition-all hover:-translate-y-2 active:translate-y-0 border border-white/20"
             >
               CRÉER MON COMPTE
             </Link>

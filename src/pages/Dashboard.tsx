@@ -28,12 +28,12 @@ export default function Dashboard() {
           </div>
           
           {/* Zen Tracker - Custom Component */}
-          <div className="w-full lg:w-96 bg-surface-container-low p-8 rounded-xl border border-outline-variant/10">
+          <div className="w-full lg:w-96 bg-surface-container-low p-8 rounded-sm border border-outline-variant/20">
             <div className="flex justify-between items-end mb-4">
               <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">Progression Visionnaire</span>
               <span className="text-3xl font-display font-extrabold text-primary">{progressPercentage}%</span>
             </div>
-            <div className="h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden relative">
+            <div className="h-1.5 w-full bg-surface-container-high rounded-sm overflow-hidden relative">
               <motion.div 
                 initial={{ width: 0 }}
                 animate={{ width: `${progressPercentage}%` }}
@@ -41,7 +41,7 @@ export default function Dashboard() {
                 className="h-full bg-primary relative"
               >
                 {/* Asymmetrical Glow at the leading edge */}
-                <div className="absolute right-0 top-1/2 -translate-y-1/2 w-8 h-8 bg-primary/40 blur-xl rounded-full" />
+                <div className="absolute right-0 top-1/2 -translate-y-1/2 w-8 h-8 bg-primary/40 blur-xl rounded-sm" />
               </motion.div>
             </div>
             <div className="mt-4 flex justify-between text-[10px] font-bold text-on-surface-variant opacity-50 uppercase tracking-widest">
@@ -63,12 +63,9 @@ export default function Dashboard() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05 }}
-                className={`group relative bg-surface-container-lowest p-10 rounded-xl transition-all duration-500 ${
+                className={`group relative bg-surface-container-lowest p-10 rounded-sm border border-outline-variant/10 transition-all duration-500 ${
                   isLocked ? 'opacity-40 grayscale pointer-events-none' : 'hover:bg-surface-container-high hover:-translate-y-2'
                 }`}
-                style={{
-                  boxShadow: '0 4px 20px rgba(25, 28, 30, 0.02)'
-                }}
               >
                 {/* Chapter Number - Editorial Style */}
                 <div className="absolute -top-6 -left-4 text-9xl font-display font-black text-on-surface/[0.03] select-none group-hover:text-primary/[0.05] transition-colors">
@@ -81,7 +78,7 @@ export default function Dashboard() {
                       Module {index + 1}
                     </span>
                     {isCompleted && (
-                      <div className="bg-primary/10 text-primary p-1.5 rounded-full">
+                      <div className="bg-primary/10 text-primary p-1.5 rounded-sm">
                         <CheckCircle size={14} />
                       </div>
                     )}

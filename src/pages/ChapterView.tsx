@@ -187,7 +187,7 @@ export default function ChapterView() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -30 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="bg-surface-container-lowest p-12 md:p-24 rounded-xl shadow-[0_4px_30px_rgba(25,28,30,0.03)]"
+              className="bg-surface-container-lowest p-12 md:p-24 rounded-sm border border-outline-variant/20"
             >
               <div className="markdown-body">
                 <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
@@ -214,7 +214,7 @@ export default function ChapterView() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -30 }}
-              className="bg-surface-container-lowest p-12 md:p-24 rounded-xl shadow-[0_4px_30px_rgba(25,28,30,0.03)]"
+              className="bg-surface-container-lowest p-12 md:p-24 rounded-sm border border-outline-variant/20"
             >
               <div className="mb-16">
                 <span className="text-[10px] font-bold text-primary uppercase tracking-[0.3em] block mb-4">
@@ -233,7 +233,7 @@ export default function ChapterView() {
                       <span className="text-4xl font-display font-black text-primary/10">{index + 1}</span>
                       <h3 className="text-xl font-display font-extrabold text-on-surface leading-tight">{question}</h3>
                     </div>
-                    <div className="bg-surface-container-low rounded-lg overflow-hidden border border-outline-variant/10 focus-within:border-primary/20 transition-all">
+                    <div className="bg-surface-container-low rounded-sm overflow-hidden border border-outline-variant/10 focus-within:border-primary/20 transition-all">
                       <ReactQuill 
                         theme="snow" 
                         value={exerciseAnswers[index] || ''} 
@@ -272,7 +272,7 @@ export default function ChapterView() {
               key="quiz"
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="bg-surface-container-lowest p-12 md:p-24 rounded-xl shadow-[0_10px_50px_rgba(25,28,30,0.05)]"
+              className="bg-surface-container-lowest p-12 md:p-24 rounded-sm border border-outline-variant/20"
             >
               <div className="mb-16 flex flex-col md:flex-row md:items-center justify-between gap-8">
                 <div className="flex flex-col gap-2">
@@ -281,7 +281,7 @@ export default function ChapterView() {
                 </div>
                 <div className="flex gap-2">
                   {chapter.quiz.map((_, i) => (
-                    <div key={i} className={`h-1 w-12 rounded-full transition-all duration-500 ${i <= currentQuizStep ? 'bg-primary' : 'bg-surface-container-high'}`}></div>
+                    <div key={i} className={`h-1 w-12 rounded-sm transition-all duration-500 ${i <= currentQuizStep ? 'bg-primary' : 'bg-surface-container-high'}`}></div>
                   ))}
                 </div>
               </div>
@@ -295,17 +295,17 @@ export default function ChapterView() {
                   <button
                     key={i}
                     onClick={() => handleOptionSelect(i)}
-                    className={`w-full text-left p-8 rounded-xl transition-all duration-300 font-bold text-lg flex items-center justify-between group ${
+                    className={`w-full text-left p-8 rounded-sm border border-outline-variant/10 transition-all duration-300 font-bold text-lg flex items-center justify-between group ${
                       selectedOption === i 
-                        ? 'bg-primary text-on-primary shadow-xl shadow-primary/20' 
+                        ? 'bg-primary text-on-primary' 
                         : 'bg-surface-container-low hover:bg-surface-container-high text-on-surface'
                     }`}
                   >
                     <span className="flex-grow pr-8 leading-tight">{option}</span>
-                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
+                    <div className={`w-6 h-6 rounded-sm border-2 flex items-center justify-center flex-shrink-0 ${
                       selectedOption === i ? 'border-on-primary bg-on-primary' : 'border-outline-variant/30 group-hover:border-primary/30'
                     }`}>
-                      {selectedOption === i && <div className="w-2 h-2 bg-primary rounded-full"></div>}
+                      {selectedOption === i && <div className="w-2 h-2 bg-primary rounded-sm"></div>}
                     </div>
                   </button>
                 ))}
@@ -325,7 +325,7 @@ export default function ChapterView() {
               key="results"
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="bg-surface-container-lowest p-12 md:p-24 rounded-xl shadow-[0_10px_50px_rgba(25,28,30,0.05)] text-center"
+              className="bg-surface-container-lowest p-12 md:p-24 rounded-sm border border-outline-variant/20 text-center"
             >
               {quizResults.every(r => r === true) ? (
                 <>
@@ -356,7 +356,7 @@ export default function ChapterView() {
                 </>
               ) : (
                 <>
-                  <div className="w-24 h-24 bg-primary/5 text-primary rounded-full flex items-center justify-center mx-auto mb-10">
+                  <div className="w-24 h-24 bg-primary/5 text-primary rounded-sm flex items-center justify-center mx-auto mb-10">
                     <AlertCircle size={48} />
                   </div>
                   <h2 className="text-5xl font-display font-extrabold text-on-surface mb-6 tracking-tight">Révision Nécessaire</h2>

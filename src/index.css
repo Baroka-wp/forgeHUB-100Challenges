@@ -20,9 +20,17 @@
   --color-on-surface-variant: #58413f;
   --color-outline-variant: #dfbfbc;
   
-  --radius-md: 0.75rem;
-  --radius-lg: 1rem;
-  --radius-xl: 1.25rem;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.125rem;
+  --radius-lg: 0.125rem;
+  --radius-xl: 0.125rem;
+  --radius-2xl: 0.125rem;
+  
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-xl: none;
+  --shadow-2xl: none;
   
   --spacing-12: 3rem;
   --spacing-16: 4rem;
@@ -48,12 +56,12 @@
   strong { @apply font-bold text-primary; }
   
   blockquote {
-    @apply border-l-4 border-primary bg-primary/5 p-6 my-8 italic rounded-r-lg text-lg text-primary-container font-medium;
+    @apply border-l-4 border-primary bg-primary/5 p-6 my-8 italic rounded-sm text-lg text-primary-container font-medium;
     p { @apply m-0; }
   }
 
   .callout {
-    @apply bg-surface-container-low border border-outline-variant/30 p-8 my-10 rounded-xl shadow-sm;
+    @apply bg-surface-container-low border border-outline-variant/30 p-8 my-10 rounded-sm;
     h4 { @apply text-primary font-bold uppercase tracking-widest text-xs mb-4; }
   }
 }
