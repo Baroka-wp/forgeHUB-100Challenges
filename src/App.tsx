@@ -10,6 +10,7 @@ import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import ChapterView from './pages/ChapterView';
 import Dossier from './pages/Dossier';
+import AdminDashboard from './pages/AdminDashboard';
 import Navbar from './components/Navbar';
 import BottomNav from './components/BottomNav';
 
@@ -49,7 +50,22 @@ export default function App() {
       const docRef = doc(db, 'users', uid);
       const docSnap = await getDoc(docRef);
       if (docSnap.exists()) {
-        setUserData(docSnap.data());
+        // Update lastLogin for existing user
+        const existingData = docSnap.data() as any;
+        const updatedData = {
+          ...existingData,
+          lastLogin: new Date().toISOString()
+        };
+        
+        // Force admin role for the specific email if not already set
+        if (auth.currentUser?.email === 'birotori@gmail.com' && existingData.role !== 'admin') {
+          updatedData.role = 'admin';
+          await setDoc(docRef, { lastLogin: updatedData.lastLogin, role: 'admin' }, { merge: true });
+        } else {
+          await setDoc(docRef, { lastLogin: updatedData.lastLogin }, { merge: true });
+        }
+        
+        setUserData(updatedData);
       } else {
         // Create user doc if it doesn't exist (e.g. after social login)
         const newUserData = {
@@ -57,7 +73,9 @@ export default function App() {
           email: auth.currentUser?.email,
           displayName: auth.currentUser?.displayName,
           completedChapters: [],
-          createdAt: new Date().toISOString()
+          createdAt: new Date().toISOString(),
+          lastLogin: new Date().toISOString(),
+          role: auth.currentUser?.email === 'birotori@gmail.com' ? 'admin' : 'user'
         };
         await setDoc(docRef, newUserData);
         setUserData(newUserData);
@@ -115,6 +133,7 @@ export default function App() {
               <Route path="/dashboard" element={user ? <Dashboard /> : <Navigate to="/login" />} />
               <Route path="/chapter/:id" element={user ? <ChapterView /> : <Navigate to="/login" />} />
               <Route path="/dossier" element={user ? <Dossier /> : <Navigate to="/login" />} />
+              <Route path="/admin" element={(user && (userData?.role === 'admin' || user.email === 'birotori@gmail.com')) ? <AdminDashboard /> : <Navigate to="/dashboard" />} />
             </Routes>
           </main>
           <BottomNav />

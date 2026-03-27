@@ -1,18 +1,22 @@
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, FileText, User, Home } from 'lucide-react';
+import { LayoutDashboard, FileText, User, Home, Shield } from 'lucide-react';
 import { useAuth } from '../App';
 
 export default function BottomNav() {
-  const { user } = useAuth();
+  const { user, userData } = useAuth();
   const location = useLocation();
 
-  if (!user) return null;
+  if (!user || location.pathname === '/admin') return null;
 
   const navItems = [
     { label: 'Accueil', icon: Home, path: '/' },
     { label: 'Formation', icon: LayoutDashboard, path: '/dashboard' },
     { label: 'Dossier', icon: FileText, path: '/dossier' },
   ];
+
+  if (userData?.role === 'admin' || user?.email === 'birotori@gmail.com') {
+    navItems.push({ label: 'Admin', icon: Shield, path: '/admin' });
+  }
 
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-surface/95 backdrop-blur-xl border-t border-outline-variant/15 z-50 px-4 pb-safe">

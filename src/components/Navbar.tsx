@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../App';
 import { auth } from '../firebase';
 import { LogOut, User } from 'lucide-react';
@@ -7,6 +7,9 @@ import { Logo } from './Logo';
 export default function Navbar() {
   const { user, userData } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
+
+  if (location.pathname === '/admin') return null;
 
   const handleLogout = async () => {
     await auth.signOut();
@@ -29,6 +32,11 @@ export default function Navbar() {
               <Link to="/dossier" className="text-on-surface-variant hover:text-primary font-semibold transition-all text-sm uppercase tracking-widest">
                 Dossier
               </Link>
+              {(userData?.role === 'admin' || user?.email === 'birotori@gmail.com') && (
+                <Link to="/admin" className="text-primary hover:text-primary-container font-black transition-all text-sm uppercase tracking-[0.2em] border-l border-outline-variant/20 pl-8">
+                  Admin
+                </Link>
+              )}
             </div>
             <div className="flex items-center gap-3 md:gap-5 md:pl-8 md:border-l border-outline-variant/20">
               <div className="flex flex-col items-end">
